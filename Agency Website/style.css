@@ -1,0 +1,783 @@
+/* ===============================================
+Template Name: Agency
+Template URL: habibcoder.com
+Author: HR Habib
+Author URL: https://habibcoder.com/profile/
+Version: 1.0
+Licence: GNU General Public License Version 1.0
+Licence URL: http://www.gnu.org/licenses/gpl-1.0.html
+Description: This is a company website.
+Tags: agency website, agency, company, hrhabib
+Text Domain: agency website
+================================================ */
+
+/* ================================================
+	TABLE OF CONTENTS: 
+===================================================
+01. Fonts Link
+02. Author CSS / Typography 
+03. Header Area
+	3.1. Top Header
+		3.1.1. Header Social Icons
+		3.1.2. Header Search Bar
+	3.2. Header Logo
+	3.3. Main menu
+04. Hero Area
+	4.1. Hero Image 
+	4.2. Hero Title
+	4.3. Hero Content
+	4.4. Hero Button
+05. Service Area
+	5.1. Service Title
+	5.2. Service Content
+	5.3. Single Service
+		5.3.1. Service Image
+		5.3.2. Service Details
+06. Blog Area
+	6.1. Blog Content
+	6.2. Single Blog
+	6.3. Single Blog Image
+	6.4. Single Blog Title
+	6.5. Single Blog DetailsService
+07. Testimonial Area
+	7.1. Testimonial Title
+	7.2. Testimonial Subtitle
+	7.3. Testimonial Slider
+	7.4. Testimonial Slider Image
+	7.5. Testimonial Slider Details
+08. Footer Area
+	8.1. Footer Contact
+	8.2. Footer Links
+	8.3. Footer Blog
+	8.4. Footer Form
+09. Copyright Area
+10. Contact Us Page
+11. Team Page
+12. About Us page
+13. Portfolio Page
+14. Log In Page
+15. Sign Up Page
+16. 404 Page
+================================================ */
+
+/* =============
+Fonts Link
+============= */
+@font-face {
+	font-family:'Georgia Bold';
+	src: url('webfonts/georgia bold.woff') format('woff');
+}
+@font-face {
+	font-family:'Georgia Regular';
+	src: url('webfonts/Georgia Regular font.woff') format('woff');
+}
+@font-face {
+	font-family:'GerogiaB';
+	src: url('webfonts/georgiab.woff') format('woff');
+}
+
+
+/* =========================
+Author CSS / Typography
+========================= */
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	font-family:'Georgia Regular';
+	font-size: 16px;
+	font-weight: 400;
+}
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+li{
+	display: inline-block;
+}
+a{
+	text-decoration: none;
+	text-transform: capitalize;
+	display: inline-block;
+	font-size: 16px;
+	font-weight: normal;
+	font-family:'Georgia Regular';
+}
+a:hover,
+a:focus{
+	text-decoration: none;
+	outline: none;
+	font-family:'Georgia Regular';
+}
+input,
+textarea,
+select,
+button{
+	border: none;
+	outline: none;
+	border-radius: 5px;
+	font-family:'Georgia Regular';
+}
+button{
+	cursor: pointer;
+}
+::-webkit-input-placeholder{
+	font-size: 16px;
+	color: #000;
+	opacity: .7;
+}
+::-moz-placeholder{
+	font-size: 16px;
+	color: #000;
+	opacity: .7;
+}
+:-ms-input-placeholder{
+	font-size: 16px;
+	color: #000;
+	opacity: .7;
+}
+::-ms-input-placeholder{
+	font-size: 16px;
+	color: #000;
+	opacity: .7;
+}
+::placeholder{
+	font-size: 16px;
+	color: #000;
+	opacity: .7;
+}
+img{
+	width: 100%;
+	height: auto;
+	display: block;
+}
+p{
+	font-size: 22px;
+	color: #374a5e;
+	opacity: .8;
+	margin-bottom: 10px;
+}
+b,
+strong{
+	font-size: 16px;
+	font-weight: bold;
+}
+h2{
+	font-size: 42px;
+	text-transform: uppercase;
+	color: #1f1f1f;
+	margin: 0;
+}
+h3{
+	font-size: 24px;
+	text-transform: uppercase;
+	color: #1f1f1f;
+	margin: 0;
+}
+h4{
+	font-size: 22px;
+	text-transform: capitalize;
+	color: #3bafbe;
+	margin-bottom: 2px;
+}
+.button a{
+	font-size: 18px;
+    text-transform: uppercase;
+    color: #fff;
+    background: #3bafbe;
+    padding: 10px 20px;
+    border-radius: 10px;
+    -webkit-transition: .4s ease;
+    -o-transition: .4s ease;
+    transition: .4s ease;
+}
+
+
+/* ================
+Preloader Area
+================= */
+#preloader{
+	background: #fff url('img/loader.gif');
+	background-position: center;
+	background-size: 8%;
+	background-repeat: no-repeat;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100vh;
+	z-index: 100;
+}
+
+
+
+/* =======================
+Header Area Style Start
+======================== */
+.header-area{
+	border-top: 6px solid #3bafbe;
+	border-bottom: 3px solid #ddd;
+}
+.top-header{
+	padding: 25px 0 5px 0;
+}
+.header-socialicon{
+
+}
+.header-socialicon ul li a i{
+	color: #fff;
+	background: #333333;
+	font-size: 20px;
+	height: 38px;
+	width: 38px;
+	border-radius: 50%;
+	padding: 10px;
+	margin-right: 8px;
+	text-align: center;
+	-webkit-transition: .5s ease;
+	-o-transition: .5s ease;
+	transition: .5s ease;
+}
+.header-socialicon ul li a i:hover{
+	background: #ee802f;
+	-webkit-transform: scale(1.1);
+	    -ms-transform: scale(1.1);
+	        transform: scale(1.1);
+}
+.top-header #search-form{
+	text-align: right;
+}
+#search-form #search{
+    border: 2px solid transparent;
+    color: #fff;
+    background: #333333;
+    padding: 7px 12px;
+    border-radius: 10px;
+    width: 250px;
+}
+#search-form input[type="submit"] {
+    background: #3bafbe;
+    color: #fff;
+    padding: 9px 12px;
+    text-transform: uppercase;
+    border-radius: 10px;
+    -webkit-transition: .5s ease;
+    -o-transition: .5s ease;
+    transition: .5s ease;
+}
+#search-form input[type="submit"]:hover{
+	background: #ee802f;
+}
+#search-form #search::-webkit-input-placeholder{
+	color: #fff;
+}
+#search-form #search::-moz-placeholder{
+	color: #fff;
+}
+#search-form #search:-ms-input-placeholder{
+	color: #fff;
+}
+#search-form #search::-ms-input-placeholder{
+	color: #fff;
+}
+#search-form #search::placeholder{
+	color: #fff;
+}
+
+.header-area .menu-area{
+	padding-bottom: 20px;
+	position: static;
+	-webkit-transition: .1s linear;
+	-o-transition: .1s linear;
+	transition: .1s linear;
+	top: -60px;
+}
+.menu-area .main-logo a{
+	font-size: 30px;
+	color: #5b5b5b;
+	text-transform: uppercase;
+}
+.menu-area .main-logo a::first-letter{
+	font-size: 42px;
+}
+.main-menu{
+	text-align: right;
+}
+.main-menu ul {
+	position: relative;
+	padding-top: 15px;
+}
+.main-menu ul li{
+	position: relative;
+}
+.main-menu ul li a{
+	font-size: 18px;
+	text-transform: uppercase;
+	padding: 8px 12px;
+	color:  #5b5b5b;
+	font-weight: bold;
+	-webkit-transition: .5s ease;
+	-o-transition: .5s ease;
+	transition: .5s ease;
+}
+.main-menu ul li .current,
+.main-menu ul li a:hover{
+	color: #ee802f;
+}
+.main-menu ul li a i{
+	font-size: 20px;
+}
+
+/* Sub Menu */
+.main-menu ul ul{
+	position: absolute;
+	top: 100%;
+	left: 0;
+	background: #5b5b5b ;
+	z-index: 1;
+	min-width: 185px;
+	text-align: center;
+	padding: 10px 0;
+	display: none;
+}
+.main-menu ul li:hover> ul{
+	display: block;
+}
+.main-menu ul ul li{
+	display: block;
+	position: relative;
+}
+.main-menu ul ul li a{
+	color: #fff;
+	font-size: 17px !important;
+}
+.main-menu ul ul ul{
+	position: absolute;
+	top: 0;
+	left: 100%;
+	display: none;
+}
+.main-menu ul ul li:hover> ul{
+	display: block;
+}
+.menu-area {
+	position: relative;
+}
+
+/* Mobile Menu */
+.mobile-menu{
+	display: none;
+}
+.mobile-menu i {
+    font-size: 22px;
+    color: #5b5b5b;
+    cursor: pointer;
+    padding: 10px;
+    position: absolute;
+    top: 2px;
+    right: 35px;
+}
+
+/* Menu Fixed */
+.header-area .menu-area.fixed{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	z-index: 10;
+	background: rgba(59, 175, 190, .9);
+	padding: 0 80px 10px 80px !important;
+	margin-top: 0 !important;
+}
+
+
+/* Close Button */
+.menu-area .close-btn{
+	display: none;
+}
+.menu-area .close-btn i {
+    font-size: 35px;
+    position: absolute;
+    top: 20px;
+    right: 10%;
+    z-index: 5;
+    cursor: pointer;
+    -webkit-transition: .4s;
+    -o-transition: .4s;
+    transition: .4s;
+}
+.menu-area .close-btn i:hover{
+	color: #ee802f;
+}
+
+@media only screen and (max-width: 991.98px){
+	.main-menu{
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		background: rgba(59, 175, 190, 1);
+		z-index: 3;
+		padding-left: 10px;
+		padding-bottom: 15px;
+		display: none;
+	}
+	.main-menu ul ul{
+		position: inherit;
+		display: block;
+		left: 5%;
+		background: transparent;
+		padding: 0;
+	}
+	.main-menu ul li{ 
+		display: block; 
+		text-align: left; 
+	}
+	.main-menu ul ul ul li a,
+	.main-menu ul ul li a{
+		font-size: 18px !important;
+		padding: 3px 10px;
+	}
+	.main-menu ul ul ul{
+		position: inherit;
+		display: block;
+		left: 5%;
+	}
+	.main-menu ul li> a{
+		padding: 0 10px;
+		color: #fff;
+	}
+
+	.mobile-menu{
+		display: block;
+	}
+	.menu-area .close-btn{
+		display: block;
+	}
+
+}
+
+
+/* ======================
+Header Area Style End
+====================== */
+
+/* =====================
+Hero Area Style Start
+===================== */
+.hero-area{
+	padding: 60px 0;
+}
+
+.hero-image img{
+	height: 350px;
+	border-radius: 10px;
+	width: 90%;
+	margin: auto;
+}
+.hero-details {
+    padding-top: 40px;
+}
+.hero-content{
+	margin: 15px 0 28px 0;
+}
+.hero-content p{
+	font-size: 22px;
+}
+.hero-button a:hover{
+	background: #ee802f;
+}
+.hero-slider .indicate{
+	margin-right: 0;
+	-webkit-box-pack: right;
+	    -ms-flex-pack: right;
+	        justify-content: right;
+}
+.hero-slider .indicate a{
+	height: 10px;
+	width: 10px;
+	border: 2px solid #3bafbe;
+	border-radius: 50%;
+	background: #3bafbe;
+}
+
+/* ====================
+Hero Area Style End
+==================== */
+
+/* =======================
+Service Area Style Start
+======================= */
+
+.service-area{
+	padding: 60px 0;
+	border-top: 3px  solid #ddd;
+	background: #ecf0f1;
+	border-bottom: 2px solid #ddd;
+}
+.service-title h2{
+	margin: 0;
+}
+.service-subtitle {
+    margin: 20px 0;
+}
+.service-img img {
+    border-radius: 10px;
+    height: 330px;
+}
+.singleservice-title{
+	margin: 40px 0 30px 0;
+}
+.service-content{
+	margin-bottom: 30px;
+}
+.service-button a:hover{
+	background: #ee802f;
+}
+
+/* =======================
+Service Area Style End
+======================= */
+
+/* =======================
+Blog Area Style Start
+======================= */
+
+.blog-area{
+	padding: 60px 0;
+}
+.blog-subtitle{
+	margin: 20px 0;
+}
+.blog-details {
+    margin-top: 12px;
+}
+.blog-img img {
+    height: 120px;
+    border-radius: 5px;
+    border: 2px solid #ddd;
+    padding: 5px;
+}
+.sblog-content p{
+	font-size: 16px;
+}
+.blog-area .second-blog {
+    margin-top: 45px;
+}
+
+
+@media only screen and (max-width: 575px){
+	.blog-img img{ 
+		width: 120px;
+		margin-bottom: 10px;
+	}
+}
+
+/* =======================
+Blog Area Style End
+======================= */
+
+/* ==========================
+Testimonial Area Style Start
+========================== */
+
+.testimonial-area{
+	padding: 60px 0;
+	background: #ecf0f1;
+	border-top: 2px solid #ddd;
+	border-bottom: 2px  solid #ddd;
+}
+.testimonial-subtitle.text-center {
+    margin: 20px 0;
+}
+.testimonial-img img {
+    height: 120px;
+    width: 120px;
+    margin: auto;
+    border-radius: 50%;
+    border: 2px solid #3bafbe;
+}
+.testimonial-content {
+    margin: 40px auto 30px auto;
+    width: 80%;
+}
+.testimonial-content p {
+    font-size: 20px;
+}
+.testimonial-img {
+    margin-top: 40px;
+}
+.testimonail-location h5 {
+    text-transform: capitalize;
+    color: #1f1f1f;
+    font-size: 22px;
+}
+.testimonial-slider .indicate{
+	margin-bottom: -28px;
+}
+.testimonial-slider .indicate a{
+	height: 10px;
+	width: 10px;
+	border-radius: 50%;
+	border: 2px solid #3bafbe;
+	background: #3bafbe;
+}
+
+/* ==========================
+Testimonial Area Style End
+========================== */
+
+/* ========================
+Footer Area Style Start
+======================== */
+.footer-area{
+	padding: 60px 0 30px 0;
+	background: #252525;
+	color: #fff;
+}
+.footer-title{
+	margin-bottom: 25px;
+}
+.footer-title h3 {
+    color: #fff;
+    font-size: 26px;
+}
+.footer-area p{
+	color: #fff;
+	text-transform: capitalize;
+	margin: 0;
+	font-size: 19px;
+}
+.footer-area a {
+    text-transform: capitalize;
+    color: #3bafbe;
+    font-size: 20px;
+    -webkit-transition: .5s ease;
+    -o-transition: .5s ease;
+    transition: .5s ease;
+}
+.fcontact-detials p a{
+	text-transform: lowercase;
+	font-size: 18px;
+}
+.footer-area a:hover{
+	color: #ee802f;
+}
+.footer-area .flinks hr{
+	border-top: 0;
+	border-right: 0;
+	border-left: 0;
+	border-bottom: 1px solid #ddd;
+	margin: 10px 0;
+}
+.fcontact-detials p:nth-child(5){
+	margin-top: 20px;
+}
+
+/* Footer Blog */
+.footer-area .fblog h5 {
+    text-transform: capitalize;
+    opacity: .9;
+    margin: 0;
+}
+.footer-area .fblog .postdate{
+	margin-bottom: 10px;
+}
+.footer-area .fblog p{
+	line-height: 1.4em;
+}
+.footer-area .fblog-button{
+	margin: 10px 0;
+	margin-bottom: 25px;
+}
+.footer-area .fblog-button a{
+	text-align: right;
+	display: block;
+}
+
+#newsletter-form input{
+	margin-bottom: 15px;
+    padding: 7px 15px;
+    font-size: 20px;
+    color: #fff;
+    background: rgba(0, 0, 0, .4);
+    border: 2px solid transparent;
+    border-radius: 5px;
+}
+#newsletter-form input[type="submit"]{
+	text-transform: uppercase;
+	color: #fff;
+	background: #3bafbe;
+	-webkit-transition: .5s ease;
+	-o-transition: .5s ease;
+	transition: .5s ease;
+	padding: 4px 15px;
+}
+#newsletter-form input::-webkit-input-placeholder{
+	color: #fff;
+	font-size: 20px;
+	opacity: .7;
+}
+#newsletter-form input::-moz-placeholder{
+	color: #fff;
+	font-size: 20px;
+	opacity: .7;
+}
+#newsletter-form input:-ms-input-placeholder{
+	color: #fff;
+	font-size: 20px;
+	opacity: .7;
+}
+#newsletter-form input::-ms-input-placeholder{
+	color: #fff;
+	font-size: 20px;
+	opacity: .7;
+}
+#newsletter-form input::placeholder{
+	color: #fff;
+	font-size: 20px;
+	opacity: .7;
+}
+#newsletter-form input[type="submit"]:hover{
+	background: #ee802f;
+}
+
+/* Copyright Area */
+.copyright-area{
+	border-top: 1px solid #ddd;
+	padding-top: 28px;
+}
+.copyright-area p{
+	font-size: 18px;
+}
+
+/* Scroll Top */
+.scroll-top i{
+	position: fixed;
+	right: 5px;
+	bottom: 5px;
+	font-size: 28px;
+	cursor: pointer;
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+	color: #1f1f1f;
+	background: #fff;
+	border: 2px solid #1f1f1f;
+	text-align: center;
+	padding: 4px;
+	-webkit-transition: .5s ease;
+	-o-transition: .5s ease;
+	transition: .5s ease;
+}
+.scroll-top i:hover{
+	border: 2px solid #ee802f;
+	color: #ee802f;
+}
+
+/* ========================
+Footer Area Style End
+======================== */
+

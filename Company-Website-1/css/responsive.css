@@ -1,0 +1,83 @@
+/* ==========================
+Medium Layout: 1280px 
+========================== */
+@media only screen and (min-width: 992px) and (max-width: 1200px){
+	.portfolio-item .single-btn{ margin-top: 0; }
+
+}
+/* ==========================
+Tablet Layout: 768px 
+========================== */
+@media only screen and (min-width: 768px) and (max-width: 991.98px){
+	.main-menu ul li{ display: block; text-align: center; margin-bottom: 10px;}
+	.mobile-menu i{ top: -62px; }
+	.portfolio-item .single-btn{ margin-top: 0; }
+	.portfolio-image img{ height: 180px; }
+	.portfolio-item .single-details{ padding: 13px 0 13px 35px; }
+	.portfolio-item .single-content p{ line-height: 1.7em; }
+	.portfolio-area .single-title h4{ font-size: 16px; }
+	.portfolio-item .single-btn a{ font-size: 14px; }
+	.portfolio-area .portfolio-details{ margin: 150px 0; }
+	.work-images .work-img1 img{ height: 250px; }
+	.work-images .work-img3 img{ height: 250px; }
+	.work-images .work-img4 img{ height: 250px; }
+	.work-images .work-img2 img{ height: 530px; }
+	.blog-area .mainBlog-details{ padding: 13px; }
+	.blog-area .mainBlog-img img{ height: 282px; }
+	.blog-area .blog-date{ margin: 5px 0; }
+	.blog-area .singleBlog-title{ padding: 3px 0 0 0; }
+	.blog-area .singleBlog-content p{line-height: 1.7em;}
+	.blog-area .blog-btn{ margin: 0; }
+
+}
+/*===========================
+Mobile Layout: 320px 
+========================== */
+@media only screen and (max-width: 767.98px){
+	h2{ font-size: 30px; }
+	.header-social{ text-align: center; }
+	.header-logo{ text-align: center; padding: 0; }
+	.main-menu ul{ text-align: center; }
+	.main-menu ul li{ display: block; margin-bottom: 10px; }
+	.slider-details h2{ font-size: 38px; }
+	.slider-details h2 span{ font-size: 38px; }
+	.hero-slider .slider-details{ margin-bottom: 170px; }
+	.portfolio-item .single-btn{ margin-top: 18px; }
+	.portfolio-area .portfolio-details{ margin: 60px 0; }
+	.work-menu ul li{ display: block; margin-bottom: 12px; }
+	.work-images .work-img1 img,
+	.work-images .work-img3 img,
+	.work-images .work-img4 img{ height: 185px; }
+	.work-images .work-img2 img{ height: 400px; }
+	.singleWork-item{ margin-bottom: 35px;}
+	.service-items .single-service{ padding: 35px 8px; }
+	.blog-area .mainBlog-img img{ height: 360px; }
+	.blog-area .mainBlog-details{ padding: 30px; }
+	.blog-area .blog-date{ margin: 10px 0; }
+	.blog-area .singleBlog-title{ padding: 10px 0 8px 0; }
+	.blog-area .blog-btn{ margin: 10px 0; }
+	.blog-area .single-blog{ margin-bottom: 45px; }
+	.footer-menu ul li{ display: block; margin-bottom: 10px; }
+
+}
+/* ==========================
+Wide Mobile Layout: 480px 
+========================== */
+@media only screen and (min-width: 480px) and (max-width: 767.98px){
+
+
+}
+
+
+/* Max Width : 775px */
+
+@media only screen and ( max-width: 575.98px){
+	.mobile-menu{ width: 90%; margin: auto; }
+	.portfolio-image img{ height: 295px; }
+	.work-images .work-img1 img{ height: 250px; }
+	.work-images .work-img3 img{ height: 250px; margin-bottom: 25px; }
+	.work-images .work-img4 img{ height: 250px; margin-bottom: 25px; }
+	.work-images .work-img2 img{ height: 510px;  }
+	.service-items .single-service{ margin: 0 12px; }
+	.blog-area .main-blog{ width: 95%; }
+}

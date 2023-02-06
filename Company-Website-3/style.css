@@ -1,0 +1,883 @@
+/* ======================================================
+Template Name: Poipoi Company
+Template URL: https://habibcoder.com
+Author Name: HR Habib
+Author URL: https://habibcoder.com/profile
+Version: 1.0
+Licence: GNU General Public License Version 1.0
+Licence URL: http://www.gnu.org/licenses/gpl-1.0.html
+Description: poipoi company
+Tags: poipoi company, company
+Tax Domain: poipoi compay
+======================================================= */
+
+/*========================================================
+	TABLE OF CONTENTS:
+==========================================================
+01. Fonts Link
+	1.1. Normal Fonts
+	1.2. Medium Fonts
+	1.3. Bold Fonts
+02. Author CSS/Typhography
+>>. Preloader
+03. Top Header
+	3.1. Contact Info
+	3.2. Search Option
+04. Menu Area
+	4.1. Logo
+	4.2. Menu Item
+05. Slider Area
+	5.1. Slider Page 1
+	5.1. Slider Page 2
+	5.1. Slider Page 3
+	5.1. Slider Page 4
+06. Welcome Area
+	6.1. Welcome Title
+	6.2. WoWelcomerk Details
+	6.3. Welcome Images
+07. Industry Area
+	7.1. Industry Title
+	7.2. Single Industry
+	7.3. Single Industry Images
+	7.4. Single Industry Title
+	7.5. Single Industry Content
+08. Counter Area
+	8.1. Counter Title
+	8.2. Company Counter
+	8.3. Conslultant Counter
+	8.4. Award Winning
+	8.5. Satisfied Customers
+09. Team Area
+	9.1. Team Title
+	9.2. Single Team
+	9.3. Team Image
+	9.4. Memebers Name
+	9.5. Members Content
+	9.6. Members Phone
+10. Logo Area
+11. Comments Area
+	11.1. Single Comments
+	11.2. Comments People Image
+	11.3. People Name
+	11.4. Comment Title
+	11.5. Comments Star
+	11.6. Comments Content
+12. Footer Area
+	12.1. Footer Business
+	12.2. Footer Blog
+	12.3. Footer Instagram
+	12.4. Scroll Top Icon
+	12.5. Copyright Area
+13. About US Page
+14. Pages Page
+15. News Page
+16. Contact US Page
+17. 404 Page
+
+======================================================= */
+
+/* =============
+Fonts Link
+============= */
+@font-face {
+	font-family: ' ';
+	src: url('webfonts/ ') format('woff');
+}
+@font-face{
+	font-family: ' ';
+	src: url('webfonts/ ') format('woff');
+}
+@font-face{
+	font-family: ' ';
+	src: url('webfonts/ ') format('woff');
+}
+
+/* ==============
+Author CSS
+============== */
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+}
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	text-transform: capitalize;
+	font-size: 14px;
+	color: #000;
+}
+a:hover,
+a:focus{
+	text-decoration: none;
+	font-family: 'Open Sans', sans-serif;
+	outline: none;
+}
+img{
+	width: 100%;
+	height: auto;
+	display: block;
+}
+input,
+textarea,
+select,
+option,
+button{
+	border: none;
+	outline: none;
+	border-radius: 5px;
+	font-family: 'Open Sans', sans-serif;
+}
+button{
+	cursor: pointer;
+}
+::-webkit-input-placeholder{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #000;
+	opacity: .8;
+}
+::-moz-placeholder{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #000;
+	opacity: .8;
+}
+:-ms-input-placeholder{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #000;
+	opacity: .8;
+}
+::-ms-input-placeholder{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #000;
+	opacity: .8;
+}
+::placeholder{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #000;
+	opacity: .8;
+}
+p{
+	font-size: 14px;
+	font-weight: normal;
+	color: #000;
+	opacity: .8;
+	margin-bottom: 10px;
+}
+b,
+strong{
+	font-size: 15px;
+	font-weight: bold;
+}
+
+
+
+/* ===================
+ Preloader Area
+ ================== */
+#preloader{
+	background: #000;
+	position: fixed;
+	height: 100vh;
+	width: 100%;
+	z-index: 1000;
+}
+.loading{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	-webkit-transform: translate(-50%, -50%);
+	    -ms-transform: translate(-50%, -50%);
+	        transform: translate(-50%, -50%);
+}
+.loader{
+	border: 2px solid red;
+	border-radius: 50%;
+	height: 80px;
+	width: 80px;
+	border-left: 4px solid transparent;
+	border-right: 4px solid transparent;
+	-webkit-animation: animate 8s linear infinite;
+	        animation: animate 8s linear infinite;
+}
+@-webkit-keyframes animate{
+	0%{
+		-webkit-transform: rotate(0deg);
+		        transform: rotate(0deg);
+	}
+	100%{
+		-webkit-transform: rotate(360deg);
+		        transform: rotate(360deg);
+	}
+}
+@keyframes animate{
+	0%{
+		-webkit-transform: rotate(0deg);
+		        transform: rotate(0deg);
+	}
+	100%{
+		-webkit-transform: rotate(360deg);
+		        transform: rotate(360deg);
+	}
+}
+
+
+/* ============================
+Header Area Style Start
+============================ */
+
+
+/***** Top Header  *****/
+
+.top-header{
+	padding: 7px 0 2px 0;
+}
+.top-header i{
+	color: #C19864;
+	margin-right: 10px;
+}
+.top-header p{
+	display: inline-block;
+}
+.top-header .email-section{
+	padding-left: 0;
+}
+.top-header .email-section a{
+	opacity: .8;
+	text-transform: lowercase;
+	-webkit-transition: .5s ease;
+	-o-transition: .5s ease;
+	transition: .5s ease;
+}
+
+.top-header .email-section a:hover {
+	color: #C19864;
+}
+
+
+/***** Main Menu  *****/
+
+.menu-area{
+	background: #5D5D5D;
+	position: static;
+	-webkit-transition: .3s linear;
+    -o-transition: .3s linear;
+	transition: .3s linear;
+	top: -50px;
+}
+.menu-logo {
+	padding-top: 12px;
+}
+.mobile-menu a,
+.menu-logo a{
+	color: #fff;
+	font-size: 18px;
+	font-weight: 500;
+	font-family: Open San, sans-serif;
+	-webkit-transition: .5s ease;
+	-o-transition: .5s ease;
+	transition: .5s ease;
+}
+.mobile-menu a:hover,
+.menu-logo a:hover {
+	color: #C19864;
+}
+.main-menu nav{
+	-webkit-box-pack: end !important;
+	    -ms-flex-pack: end !important;
+	        justify-content: end !important;
+	padding-bottom: 0 !important;
+}
+
+.main-menu nav ul li{
+	margin: 0 20px;
+}
+.main-menu nav ul li a{
+	border-bottom: 3px solid transparent;
+    padding: 7px 0 14px 0 !important;
+    -webkit-transition: .5s ease;
+    -o-transition: .5s ease;
+    transition: .5s ease;
+}
+.main-menu nav ul li a:hover {
+	color: #C19864 !important;
+	border-bottom: 3px solid #C19864;
+}
+.current {
+	color: #C19864 !important;
+	border-bottom: 3px solid #C19864 !important;
+}
+/* Mobile Menu */
+.mobile-menu{
+	padding: 14px 0;
+	width: 90%;
+	margin: auto;
+	display: none;
+}
+.mobile-menu i{
+	color: #fff;
+	font-size: 22px;
+	float: right;
+	cursor: pointer;
+}
+
+@media only screen and (max-width: 992px){
+	.main-menu nav{
+		padding-top: 0;
+	}
+	.menu-logo,
+	.main-menu {
+		display: none;
+	}
+	.mobile-menu{
+		display: block;
+	}
+}
+
+/* Menu Fixed */
+.menu-area.fixed{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	transition: .5s ease;
+	z-index: 1;
+}
+
+
+/* ===========================
+Header Area Style End
+=========================== */
+
+
+/* ===========================
+Hero Area Style Start
+=========================== */
+
+
+.hero-area .indicate{
+	height: 12px;
+	width: 12px;
+	border-radius: 50%;
+	margin-right: 6px;
+	margin-left: 6px;
+}
+.hero-area .active {
+	color: #C19864 !important;
+}
+.captions {
+	bottom: 12rem;
+}
+.captions h5{
+	font-size: 21px;
+	font-weight: normal;
+	opacity: .9;
+	margin-bottom: 17px;
+}
+.captions h2{
+	font-size: 38px;
+	font-weight: bold;
+	letter-spacing: 2px;
+	margin-bottom: 30px;
+}
+.captions a {
+    background: #C19864;
+    padding: 8px 30px;
+    color: #fff !important;
+    font-weight: 500;
+    border: 2px solid transparent;
+    -webkit-transition: .5s ease;
+    -o-transition: .5s ease;
+    transition: .5s ease;
+}
+.captions a:hover {
+	border: 2px solid #C19864;
+	color: #C19864 !important;
+	background: #fff;
+}
+
+/* ===========================
+Hero Area Style End
+=========================== */
+
+
+
+/* ===========================
+Welcome Area Style Start
+=========================== */
+.welcome-area{
+	overflow: hidden;
+}
+.welcome-details{
+	float: left;
+	overflow: hidden;
+	padding: 30px 45px 17px 145px;
+}
+@media only screen and (min-width: 1500px) and (max-width: 2500px){
+	.welcome-details{
+		padding: 8% 45px 17px 145px;
+	}
+}
+
+.welcome-details h2{
+	font-size: 24px;
+	padding-bottom: 5px;
+	font-weight: 600;
+}
+.welcome-details hr{
+	opacity: 1;
+	background-color: #C19864;
+	width: 16%;
+}
+.welcome-details p{
+	font-size: 14px;
+}
+.welcome-details p:nth-child(1) {
+	padding-bottom: 5px;
+}
+.welcome-details a{
+	font-size: 12px;
+	color: #C19864;
+	font-weight: 500;
+}
+.welcome-image{
+	overflow: hidden;
+}
+
+
+/* ===========================
+Welcome Area Style End
+=========================== */
+
+
+
+/* ===========================
+Company Area Style Start
+=========================== */
+.company-area {
+	background: #F9F4F0;
+	padding: 80px 0;
+}
+
+.company-title {
+	margin-bottom: 35px;
+}
+.company-title h2{
+	font-size: 24px;
+	font-weight: 600;
+}
+.company-logo a i{
+	font-size: 30px;
+	height: 55px;
+	width: 55px;
+	border-radius: 50%;
+	background: #C19864;
+	color: #fff;
+	line-height: 55px;
+	-webkit-transition: .5s ease;
+	-o-transition: .5s ease;
+	transition: .5s ease;
+}
+.company-logo a i:hover{
+	-webkit-transform: scale(1.1, 1.1);
+	    -ms-transform: scale(1.1, 1.1);
+	        transform: scale(1.1, 1.1);
+}
+.company-subtitle{
+	margin: 15px 0 12px 0;
+}
+.company-subtitle h4{
+	font-size: 18px;
+}
+
+
+/* ===========================
+Company Area Style End
+=========================== */
+
+
+/* ===========================
+Advice Area Style Start
+=========================== */
+.advice-area{
+	background-image: url('img/advice.jpg');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.advice-title h2{
+	font-size: 24px;
+	margin-bottom: 50px;
+	margin-top: 65px;
+}
+.advice-number{
+	font-size: 46px;
+	font-weight: bold;
+}
+.advice-content {
+    margin-bottom: 65px;
+}
+.advice-content p{
+	font-size: 18px;
+	font-weight: 500;
+}
+
+/* ===========================
+Advice Area Style End
+=========================== */
+
+
+/* ===========================
+Team Area Style Start
+=========================== */
+.team-area{
+	padding-top: 100px;
+}
+.team-title h3{
+	font-size: 24px;
+	font-weight: 600;
+}.team-title{
+	margin-bottom: 60px;
+}
+.member-image{
+	position: relative;
+}
+.img-hover {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    padding-top: 230px;
+    padding-left: 122px;
+    background: rgba(0,0,0,.50);
+    opacity: 0;
+    -webkit-transition: .7s ease;
+    -o-transition: .7s ease;
+    transition: .7s ease;
+}
+.img-hover:hover{
+	opacity: 1;
+}
+.img-hover a i{
+	font-size: 25px;
+	margin: 0 5px;
+	color: #fff;
+	-webkit-transition: .5s ease;
+	-o-transition: .5s ease;
+	transition: .5s ease;
+}
+.img-hover a .facebook{
+	color: #4064AC;
+}
+
+.img-hover a .twitter{
+	color: #1C9CEA ;
+}
+
+.img-hover a .insta{
+	color: #EF5A28 ;
+}
+.img-hover a i:hover {
+	color: #C19864 ;
+}
+
+
+.member-title h5{
+	text-transform: capitalize;
+	font-size: 18px;
+	font-weight: bold;
+	letter-spacing: 1px;
+	margin-top: 15px;
+	margin-bottom: 8px;
+}
+.member-title h5 span{
+	font-weight: normal;
+	font-family: 'Open Sans', sans-serif;
+}
+.member-cell-number p{
+	color: #C19864 !important;
+	margin-top: 18px;
+}
+
+/* ===========================
+Team Area Style End
+=========================== */
+
+
+/* =================
+Logo Area Style 
+================= */
+
+.logo-area {
+	margin: 100px 0;
+}
+
+
+
+/* ===========================
+Comment Area Style Start
+=========================== */
+.comment-area{
+	background: #F7F0E8;
+	padding-top: 80px;
+	padding-bottom: 20px;
+}
+.comment-area-title{
+	margin-bottom: 40px;
+}
+.comment-area-title h3{
+	font-size: 24px;
+	color: #403D38;
+}
+.single-comment {
+	margin-bottom: 40px;
+}
+
+.comment-title h5{
+	font-size: 18px;
+	color: #403D38;
+}
+
+.comment-content p{
+	font-size: 14px;
+	font-style: italic;
+	line-height: 1.8em;
+}
+
+.people-name h6{
+	font-size: 14px;
+	text-align: center;
+	margin: 18px 0;
+}
+.comment-star a i{
+	font-size: 16px;
+	color: #403D38;
+}
+/* .comment-star a i:focus {
+	color: #EFCE49 !important;
+	background: #EFCE49 !important;
+}
+ */
+
+/* ===========================
+Comment Area Style End
+=========================== */
+
+
+/* ===========================
+Footer Area Style Start
+=========================== */
+
+.footer-area{
+	background-image: url('img/footer.jpg');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.footer-area hr{
+	height: 2px;
+	background-color: #C19864;
+}
+.business {
+	padding: 0 !important;
+	margin-bottom: 45px;
+}
+.business-title {
+    margin-bottom: 18px;
+    margin-top: 70px;
+}
+.business-title h3{
+	font-size: 26px;
+	font-weight: bold;
+	text-transform: capitalize;
+	color: #ccc !important;
+}
+.business-content {
+    margin-bottom: 35px;
+}
+.business-content p{
+	font-size: 13px;
+	line-height: 1.7em;
+}
+.business-follow h6{
+	font-size: 18px;
+	color: #C19864;
+}
+
+.business-follow h6 span{
+	font-size: 14px;
+}
+.business hr{
+	background-color: #fff;
+	height: 1px;
+	margin-bottom: 10px;
+}
+.business-social-icon {
+    margin-bottom: 25px;
+}
+.business-social-icon span{
+	font-size: 15px;
+	margin-right: 12px;
+}
+.business-social-icon a i {
+    color: #C19864;
+    margin: 0 5px;
+    font-size: 15px;
+}
+.footer-area .subscibe input{
+	border-radius: 0;
+
+}
+.footer-area .subscibe input::-webkit-input-placeholder{
+	opacity: .7;
+	font-size: 14px;
+}
+.footer-area .subscibe input::-moz-placeholder{
+	opacity: .7;
+	font-size: 14px;
+}
+.footer-area .subscibe input:-ms-input-placeholder{
+	opacity: .7;
+	font-size: 14px;
+}
+.footer-area .subscibe input::-ms-input-placeholder{
+	opacity: .7;
+	font-size: 14px;
+}
+.footer-area .subscibe input::placeholder{
+	opacity: .7;
+	font-size: 14px;
+}
+.footer-area .subscibe input#email{
+	padding: 5px 12px;
+	
+}
+.footer-area .subscibe input[type="submit"] {
+    padding: 5px 15px;
+    text-transform: uppercase;
+    color: #fff;
+    background: #C19864;
+    border: 2px solid transparent;
+    font-weight: 600;
+    font-size: 14px;
+    -webkit-transition: .5s ease;
+    -o-transition: .5s ease;
+    transition: .5s ease;
+}
+.footer-area .subscibe input[type="submit"]:hover{
+	border: 2px solid #C19864;
+	color: #C19864;
+	background: #fff;
+}
+
+/* Blog Area */
+.single-blog{
+	margin-bottom: 20px;
+}
+.blog-title{
+	margin-top: 70px;
+	margin-bottom: 35px;
+}
+.blog-title h6{
+	font-size: 14px;
+	color: #ccc;
+}
+.single-blog p{
+	color: #fff;
+	margin-bottom: 0;
+	font-size: 12px;
+	margin-top: 12px;
+}
+
+.single-blog .date span{
+	color: #C19864;
+	font-size: 13px;
+}
+
+
+/* Instagram Area */
+.instagram-title{
+	margin-top: 70px;
+	margin-bottom: 35px;
+}
+.instagram-title h6 {
+    font-size: 14px;
+    color: #ccc;
+    text-transform: uppercase;
+}
+.instagram-image{
+	margin: 0;
+	padding-right: 100px;
+}
+.instagram-image img{
+	width: 85px;
+	height: 85px;
+}
+.instagram-image .insta-img{
+	margin: 0;
+	padding: 0;
+}
+
+@media only screen and (max-width: 550px) {
+	.instagram-image{
+		padding-right: 0 !important ;
+	}
+	.instagram-image img{ 
+		height: 100%;
+		width: 100%;
+	 }
+	
+}
+
+/* Copyright Area */
+.copyright-area{
+	margin: 2px 0;
+}
+
+
+/* ===========================
+Footer Area Style End
+=========================== */
+
+/* ===========================
+Scroll-Up Area Style Start
+=========================== */
+.scroll-up {
+   	position: fixed;
+   	right: 10px;
+   	bottom: 15px;
+   	text-align: right;
+}
+.scroll-up a i{
+	height: 40px;
+    width: 40px;
+    background: #C19864;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 1.5;
+    border: 2px solid transparent;
+    -webkit-transition: .5s ease;
+    -o-transition: .5s ease;
+    transition: .5s ease;
+}
+.scroll-up a i:hover {
+	border: 2px solid #C19864;
+	color: #C19864 !important;
+	background: #F7F0E8;
+}
+
+/* ===========================
+Scroll-Up Area Style End
+=========================== */

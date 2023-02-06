@@ -1,0 +1,95 @@
+/* ==========================
+Medium Layout: 1280px 
+========================== */
+@media only screen and (min-width: 992px) and (max-width: 1200px){
+	.welcome-details{	width: 100%;}
+	.welcome-image{	width: 100%; }
+	.img-hover{ padding-top: 150px; padding-left: 92px; }
+	.business{ width: 50%; }
+	.business-title { margin-bottom: 25px; }
+	.business-content { margin-bottom: 55px; }
+	.business-social-icon { margin-bottom: 45px; }
+	.blogs{ width: 50%; }
+	.instagram {
+		width: 100%;
+		margin: 10px auto;
+		margin-left: 35%;
+	}
+	.instagram-image {	padding-right: 680px; }
+
+}
+/* ==========================
+Tablet Layout: 768px 
+========================== */
+@media only screen and (min-width: 768px) and (max-width: 991.98px){
+	.location-section{ width: 44%; }
+	.email-section{ width: 28%; }
+	.contact-section{ width: 28%; }
+	.main-menu { width: 100%; }
+	.main-menu nav{ -webkit-box-pack: center !important; -ms-flex-pack: center !important; justify-content: center !important; text-align: center; }
+	.captions { bottom: 4rem; }
+	.welcome-details{ width: 100%; padding: 30px 55px 17px 55px; }
+	.welcome-image{ width: 100%; }
+	.img-hover{ padding-top: 100px; padding-left: 48px; }
+	
+	.business{	width: 50%;	margin-bottom: 0; }
+	.blogs{ width: 50%; }
+	.instagram {
+		width: 100%;
+		margin: 15px auto;
+		margin-left: 30%;
+	}
+	.instagram-image { padding-right: 441px; }
+	.mobile-menu{ width: 100%; }
+
+
+}
+/*===========================
+Mobile Layout: 320px 
+========================== */
+@media only screen and (max-width: 767.98px){
+	.location-section{ width: 100%; text-align: center; }
+	.email-section{ width: 100%; text-align: center; }
+	.contact-section{ width: 100%; text-align: center !important; }
+	.main-menu nav{ -webkit-box-pack: center !important; -ms-flex-pack: center !important; justify-content: center !important; text-align: center; }
+	.captions { bottom: 4rem; }
+	.indicate { display: none; }
+	.captions { bottom: 0; }
+	.captions h5 {  font-size: 12px;   margin-bottom: 4px; }
+	.captions h2 { font-size: 15px;  margin-bottom: 10px; }
+	.captions a { padding: 2px 10px; font-size: 12px; }
+	.welcome-details{ width: 100%; padding: 30px 55px 17px 55px; }
+	.welcome-image{ width: 100%; }
+	.img-hover{ padding-top: 45%; padding-left: 38%; }
+	.company-area .single-details { margin-bottom: 18px; }
+	.single-team { margin-bottom: 15px; }
+	.single-team:last-child { margin-bottom: 0; }
+	.business{
+		width: 100%;
+		margin-bottom: 10px;
+		padding: 0 10px !important;
+	}
+	.business-social-icon a i { margin: 0 3px; }
+	.footer-area .subscibe input[type="submit"]{ padding: 5px; }
+	.footer-area .subscibe input#email { padding: 5px 5px; }
+	.blogs{ width: 100%; }
+	.instagram {
+		width: 100%;
+		margin-left: 0;
+		margin-bottom: 10px; 
+		margin-top: -33px;
+	}
+	.instagram-image{ padding-right: 261px; }
+	
+
+}
+/* ==========================
+Wide Mobile Layout: 480px 
+========================== */
+@media only screen and (min-width: 480px) and (max-width: 767.98px){
+	.captions h5 {  font-size: 15px; margin-bottom: 8px; }
+	.captions h2 {  font-size: 22px; margin-bottom: 20px; }
+	.captions {	bottom: 3rem; }
+	.captions a { padding: 5px 20px; }
+
+}

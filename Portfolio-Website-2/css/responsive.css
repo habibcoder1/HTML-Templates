@@ -1,0 +1,57 @@
+/* ==========================
+Medium Layout: 1280px
+========================== */
+@media only screen and (min-width: 992px) and (max-width: 1200px){
+	.portfolio-subtitle p { padding: 0 186px;}
+	.footer-social-icons ul li { margin: 0 12px;}
+
+}
+/* =======================
+Tablet Layout: 768px
+======================= */
+@media only screen and (min-width: 768px) and (max-width: 991.98px){
+	.single-team-member { width: 50%; }
+	.single-team-member img{margin: auto; }
+	.portfolio-subtitle p { padding: 0;}
+	.single-comment { width: 100%; }
+	.footer-social-icons ul li { margin: 0 12px;}
+	.skill-round-one span,
+	.skill-round-two span,
+	.skill-round-three span,
+	.skill-round-four span{ left: 37%;}
+
+}
+/* =========================
+ Molibe Layout: 320px
+========================= */
+@media only screen and (max-width: 767.98px){
+	.main-logo{ width: 30%; }
+	.main-menu{ width: 70%; margin: auto; }
+	.menu-area nav ul li {
+	    display: block;
+	    margin-bottom: 15px;
+	    text-align: center; 
+	}
+	.portfolio-subtitle p { padding: 0;}
+	.portfolio-subtitle p { padding: 0;}
+	.single-comment { margin-bottom: 80px; }
+	.comment-last-row .single-comment { margin-bottom: 80px; }
+	.comment-image img{ margin: auto; margin-bottom: 15px; }
+	.contact-form form input#name { margin-bottom: 25px; }
+	.contact-form input[type="submit"] { padding: 15px 60px !important; }
+	.footer-social-icons ul li { display: block; margin: 0; margin-bottom: 6px;  }
+	/***** Mobile Menu ******/
+	.menu-area .main-logo{ display: none;}
+	.menu-area{ margin-bottom: 110px; }
+	.menu-area .main-menu li:first-child { padding-top: 8px; }
+	.menu-area .main-menu{ display: none;}
+	.mobile-menu{ display: block; }
+
+}
+/* ============================
+Wide Mobile Layout: 480px
+============================ */
+@media only screen and (min-width: 480px) and (max-width: 767.98px){
+
+	
+}

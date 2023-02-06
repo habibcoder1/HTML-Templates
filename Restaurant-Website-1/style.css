@@ -1,0 +1,838 @@
+/* =====================================================
+Template Name: Restarant Website
+Template URL: http://habibcoder.com
+Author Name: HR Habib
+Author URL: http://habibcoder.com/user
+Version: 1.0
+Licence: GNU General Public License Version 1.0
+Licence URL: http://www.gnu.org/licenses/gpl-1.0.html
+Description: This is a restaurant website.
+Tags: restarant, restarant website
+Tax Domain: restarant website
+======================================================= */
+
+/* =======================================================
+ 	TABLE OF CONTENTS: 
+==========================================================
+01. Fonts Link
+	1.1. Normal Font
+	1.2. Medium Font
+	1.3. Bold Font
+02. Author CSS/Typography
+03. Preloader
+04. Top Header
+	4.1. Conact Info
+	4.2. Social Area
+05. Main Menu
+	5.1. Logo Area
+	5.2. Menu Items
+06. Hero Area
+	6.1. Hero Title
+	6.2. Hero Content
+	6.3. Hero Button
+07. Service Area
+	7.1. Service Title
+	7.2. Service Subtitle
+	7.3. Service Items
+08. Team Area
+	8.1. Team Title
+	8.2. Team Subtitle
+	8.3. Team Items
+	8.4. Team Image
+	8.5. Item Title
+	8.6. Item Description
+	8.7. Item Social Icons
+09. Skill Area
+	9.1. Skill Title
+	9.2. Skill Subtitle
+	9.3. Skill Items
+10. Portfolio Area
+	10.1. Portfolio Title
+	10.2. Portfolio Subtitle
+	10.3. Portfolio Menu
+	10.4. Portfolio Items
+11. Comment Area
+	11.1. Comment Title
+	11.2. Comment Items
+12. Contact Area
+	12.1. Contact Title
+	12.2. Contact Content
+	12.3. Contact Name
+	12.4. Contact Email
+	12.5. Contact Textarea
+	12.6. Send Button
+13. Footer Area
+	13.1. Footer Social Icons
+	13.2. Footer Copyright Area
+14. About Us Page
+15. Contact us Page
+16. Team Page
+17. 404 Page
+
+======================================================= */
+
+
+/* =============
+Fonts Link
+============= */
+
+
+
+
+/* ==========================
+Common CSS/Typography
+========================== */
+*{
+	margin: 0;
+	padding: 0;
+	-webkit-box-sizing: border-box;
+	        box-sizing: border-box;
+	font-family: 'Alfa Slab One', cursive;
+	font-family: 'Bebas Neue', cursive;
+	font-family: 'Montserrat', sans-serif;
+}
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+li{
+	display: inline-block;
+}
+a{	
+	display: inline-block;
+	text-decoration: none;
+	text-transform: capitalize;
+	font-size: 20px;
+}
+a:hover,
+a:focus{
+	text-decoration: none;
+	outline: none;
+	font-family: 'Montserrat', sans-serif;
+}
+img{
+	width: 100%;
+	height: auto;
+	display: block;
+}
+input,
+select,
+option,
+textarea,
+button{
+	outline: none;
+	border-radius: 5px;
+	font-family: 'Bebas Neue', cursive;
+}
+button{
+	cursor: pointer;
+}
+::-webkit-input-placeholder{
+	text-transform: capitalize;
+	font-size: 16px;
+	color: #000;
+}
+::-moz-placeholder{
+	text-transform: capitalize;
+	font-size: 16px;
+	color: #000;
+}
+:-ms-input-placeholder{
+	text-transform: capitalize;
+	font-size: 16px;
+	color: #000;
+}
+::-ms-input-placeholder{
+	text-transform: capitalize;
+	font-size: 16px;
+	color: #000;
+}
+::placeholder{
+	text-transform: capitalize;
+	font-size: 16px;
+	color: #000;
+}
+p{
+	font-size: 16px;
+	font-weight: normal;
+	margin-bottom: 10px;
+	line-height: 1.8em;
+}
+b,
+strong{
+	font-size: 17px;
+	font-weight: bold;
+}
+h1{
+	font-size: 98px;
+	font-family: 'Alfa Slab One', cursive;
+	color: #3E2511;
+
+}
+
+h2{
+ 	font-size: 48px;
+ 	font-family: 'Alfa Slab One', cursive;
+ 	color: #3E2511;
+ }
+h3{
+ 	font-size: 38px;
+ 	font-family: 'Bebas Neue', cursive;
+ 	letter-spacing: 1px;
+ 	color: #3E2511;
+ }
+h4{
+	font-size: 26px;
+    font-family: 'Bebas Neue', cursive;
+}
+h5{
+	font-size: 16px;
+	font-weight: bold;
+	font-family: 'Montserrat', sans-serif;
+}
+
+
+
+
+
+/* =====================
+Preloader Area Start
+===================== */
+#preloader{
+	background-color: #fff;
+	background-image: url('img/loader.gif');
+	background-position: center;
+	background-size: 15%;
+	background-repeat: no-repeat;
+	position: fixed;
+	height: 100vh;
+	width: 100%;
+	z-index: 100;
+}
+
+
+/* =====================
+Preloader Area End
+===================== */
+
+
+/* ==========================
+Header Area Style Start
+========================== */
+.header-area{
+	background-image: url('img/header-bg.jpg');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 50px 0;
+}
+
+/* To header */
+.top-header .logo-area a img{
+	width: 210px;
+	height: auto;
+}
+.top-header .contact-number .contact-icon{
+	display: inline-block;
+	margin-right: 5px;
+}
+.top-header .contact-number .contact-icon i{
+	font-size: 30px;
+	float: left;
+	color: #3d2514;
+	opacity: .9;
+}
+.top-header .contact-number .number{
+	display: inline-block;
+	overflow: hidden;
+}
+.top-header .contact-number .number h5{
+	text-transform: capitalize;
+}
+.top-header .contactNmbr-menu{
+	text-align: right;
+}
+
+
+/* Mian Menu */
+.top-header .main-menu{
+	margin-top: 12px;
+}
+.top-header .main-menu ul li{
+	margin-left: 30px;
+}
+.top-header .main-menu ul li a{
+	font-size: 20px;
+	font-family: 'Bebas Neue', cursive;
+	color: #3d2514;
+	letter-spacing: 3px;
+	-webkit-transition: .5s ease;
+	-o-transition: .5s ease;
+	transition: .5s ease;
+}
+.top-header .main-menu ul li .current,
+.top-header .main-menu ul li a:hover{
+	color: #BF2024;
+}
+
+
+/* Mobile Menu */
+.mobile-menu{
+	width: 98%;
+	position: relative;
+	display: none;
+}
+.mobile-menu i{
+	font-size: 25px;
+	color: #fff;
+	cursor: pointer;
+	text-align: right;
+}
+.mobile-menu a img{
+	width: 170px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+/* Menu Fixed */
+.fixed-menu{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background: rgba(248, 192, 70, 0.8);
+	padding: 10px 50px;
+	z-index: 10;
+	-webkit-transition: .5s ease;
+	-o-transition: .5s ease;
+	transition: .5s ease;
+}
+
+/* Call To Action */
+.header-area .calltoaction-area{
+
+}
+.calltoaction-area .caltoaction-titlesubtitle {
+    margin-top: 140px;
+}
+.header-area .calltoaction-area .calltoaction-subtitle{
+	width: 75%;
+	margin-bottom: 10px;
+}
+.header-area .calltoaction-area .calltoaction-subtitle h4 {
+    color: #3d2514;
+    border: 3px dashed #3d2514;
+    padding: 5px 10px 2px 10px;
+    opacity: .8;
+}
+.header-area .calltoaction-area .calltoaction-title h1 {
+    color: #3d2514;
+    letter-spacing: 2px;
+    text-shadow: 5px 5px #FEE6A9;
+}
+.header-area .calltoaction-area .calltoaction-title h2{
+    color: #3d2514;
+    letter-spacing: 2px;
+    text-shadow: 5px 5px #FEE6A9;
+}
+
+.header-area .calltoaction-area .caltoaction-image img {
+	width: 100%;
+    height: 550px;
+    float: right;
+}
+
+
+/* ======================
+Header Area Style End
+====================== */
+
+/* =============================
+Populer Burger Area Style Start
+============================= */
+
+.popularburger-area{
+	padding: 60px 0;
+}
+.popularburger-area .big-burger{
+	position: relative;
+}
+.popularburger-area .big-burger img{
+	height: 380px;
+	border-radius: 10px;
+}
+.popularburger-area .big-burger .bigburger-content{
+	position: absolute;
+	top: 20px;
+	left: 20px;
+}
+.popularburger-area .big-burger .bigburger-content h4{
+	letter-spacing: 1px;
+	margin-bottom: -5px;
+}
+
+.popularburger-area .small-burgers{
+	
+}
+.popularburger-area .small-burgers .smburger-one{
+	position: relative;
+}
+.popularburger-area .small-burgers .smburger-one img{
+	height: 176px;
+	border-radius: 10px;
+}
+.popularburger-area .small-burgers .smburger-one .smburgerone-content{
+	position: absolute;
+	top: 10px;
+	left: 10px;
+}
+.small-burgers .smburger-one .smburgerone-content h4{
+	margin-bottom: -5px;
+}
+.small-burgers .smburger-one .smburgerone-content h3{
+	margin-bottom: -10px;
+}
+.popularburger-area .small-burgers .smburger-two{
+	position: relative;
+	margin-top: 20px;
+}
+.popularburger-area .small-burgers .smburger-two img{
+	height: 176px;
+	border-radius: 10px;
+}
+.popularburger-area .small-burgers .smburger-two .smburgertwo-content{
+	position: absolute;
+	top: 10px;
+	left: 10px;
+}
+.small-burgers .smburger-two .smburgertwo-content h4{
+	margin-bottom: -5px;
+}
+
+.popularburger-area .popularburger-button{
+	margin-top: 50px;
+}
+.popularburger-area .popularburger-button a{
+	font-size: 22px;
+	font-family: 'Bebas Neue', cursive;
+	color: #3E2318;
+	padding: 7px 20px 3px;
+	background: #FFBE42;
+	-webkit-transition: .5s ease;
+	-o-transition: .5s ease;
+	transition: .5s ease;
+}
+.popularburger-area .popularburger-button a:hover{
+	background: #3E2318;
+	color: #FFBE42;
+}
+
+
+/* =============================
+Populer Burger Area Style End
+============================= */
+
+
+
+/* ===============================
+Enjoyable Food Area Style Start
+=============================== */
+
+.enjoyfood-area{
+	padding-bottom: 50px;
+}
+.enjoyfood-area .enjoyfood-content p{
+	font-size: 16px;
+	font-family: 'Montserrat', sans-serif;
+}
+.enjoyfood-area .enjoyfood-content{
+	margin-top: 10px;
+}
+.enjoyfood-area .enjoy-burgers{
+	margin-top: 50px;
+}
+.enjoyfood-area .enjoy-burgers .enjoyfood-image img {
+    height: 220px;
+}
+
+.enjoyfood-area .enjoy-burgers .enjoyfood-details {
+    margin-top: 10px;
+}
+
+.enjoyfood-area .enjoy-burgers .singleEnjoyfood-content{
+	margin-bottom: 25px;
+}
+.enjoyfood-area .enjoy-burgers .singleEnjoyfood-content p {
+    line-height: 1.5em;
+    font-size: 16px;
+}
+
+.enjoyfood-area .enjoy-burgers .enjoyfood-button a{
+	font-size: 15px;
+	font-family: 'Alfa Slab One', cursive;
+	color: #fff;
+	padding: 14px 35px 11px;
+	background: #C0211F;
+	-webkit-transition: .5s ease;
+	-o-transition: .5s ease;
+	transition: .5s ease;
+}
+.enjoyfood-area .enjoy-burgers .enjoyfood-button a:hover{
+	background: #3E2511;
+	color: #ffc045;
+}
+
+/* =============================
+Enjoyable Food Area Style End
+============================= */
+
+/* =============================
+Burger Slider Area Style Start
+============================= */
+
+.burger-slider{
+	margin: 60px 0;
+	padding: 15px 0;
+	overflow: hidden;
+}
+.burger-slider .owl-slider{
+	-webkit-box-shadow: 8px 8px 17px #E0E0E0;
+	        box-shadow: 8px 8px 17px #E0E0E0;
+	position: relative;
+}
+.burger-slider .slider-details{
+	width: 50%;
+	float: left;
+	padding: 25px 20px 35px 25px;
+}
+.burger-slider .slider-image{
+	width: 50%;
+	overflow: hidden;
+}
+.burger-slider .single-slider{
+	padding: 10px 10px 20px 10px;
+	overflow: hidden;
+}
+.burger-slider .slider-subtitle h4{
+	margin: 0;
+}
+.burger-slider .slider-title h2{
+	font-size: 42px;
+}
+.burger-slider .slider-content{
+	margin-top: 25px;
+}
+.burger-slider .slider-content p{
+	font-size: 20px;
+	line-height: 1.6em;
+}
+.burger-slider .slider-image img{
+	height: 370px;
+}
+.burger-slider .owl-slider .owl-dots{
+	position: absolute;
+	bottom: 35px;
+	left: 45px;
+}
+.burger-slider .owl-slider .owl-dots .owl-dot{
+	height: 16px;
+	width: 16px;
+	border-radius: 50%;
+	background: #ddd;
+	margin-right: 5px;
+}
+.burger-slider .owl-slider .owl-dots .active{
+	background: #FDBD53;
+}
+
+/* =============================
+Burger Slider Area Style End
+============================= */
+
+/* =========================
+Booking Area Style Start
+========================= */
+
+.booking-area{
+	padding: 50px 0;
+	position: relative;
+	margin-bottom: 80px;
+}
+.booking-area .booking-title {
+    margin-bottom: 80px;
+}
+.booking-area .booking-form form{
+	width: 70%;
+	margin: auto;
+	text-transform: capitalize;
+}
+.booking-area .booking-form form input{
+	width: 48%;
+	margin-bottom: 20px;
+	padding: 13px;
+	border: 1px solid #ccc;
+	font-size: 20px;
+	font-family: 'Bebas Neue', cursive;
+	letter-spacing: 1px;
+}
+.booking-area .booking-form form input#name{
+	margin-right: 18px;
+}
+.booking-area .booking-form form input#date{
+	margin-right: 18px;
+}
+.booking-area .booking-form form input#people{
+	margin-right: 18px;
+}
+.booking-area .booking-form form input#submit-booking{
+	background: #bf2222;
+	color: #fff;
+	font-size: 20px;
+	font-family: 'Alfa Slab One', cursive;
+	text-transform: uppercase;
+	-webkit-transition: .5s ease;
+	-o-transition: .5s ease;
+	transition: .5s ease;
+}
+.booking-area .booking-form form input#submit-booking:hover{
+	background: #3d2514;
+	color: #ffc045;
+}
+.booking-area .booking-form form input::-webkit-input-placeholder{
+	font-size: 20px;
+	letter-spacing: 1px;
+	opacity: .8;
+}
+.booking-area .booking-form form input::-moz-placeholder{
+	font-size: 20px;
+	letter-spacing: 1px;
+	opacity: .8;
+}
+.booking-area .booking-form form input:-ms-input-placeholder{
+	font-size: 20px;
+	letter-spacing: 1px;
+	opacity: .8;
+}
+.booking-area .booking-form form input::-ms-input-placeholder{
+	font-size: 20px;
+	letter-spacing: 1px;
+	opacity: .8;
+}
+.booking-area .booking-form form input::placeholder{
+	font-size: 20px;
+	letter-spacing: 1px;
+	opacity: .8;
+}
+.booking-area .bookingLeft1-image img{
+	width: 270px;
+	position: absolute;
+	left: -12px;
+	top: 0;
+}
+.booking-area .bookingRight-image img{
+	width: 270px;
+	position: absolute;
+	right: 0;
+	bottom: -150px;
+}
+.booking-area .bookingLeft2-image img{
+	width: 190px;
+	position: absolute;
+	left: 70px;
+	bottom: -40px;
+}
+
+/* Validation Booking Form */
+.booking-area form .date-time,
+.booking-area form .people,
+.booking-area form .name-email {
+	position: relative;
+}
+.booking-form form label#name-error{
+	font-size: 13px;
+	font-weight: bold;
+	color: red;
+	position: absolute;
+	left: 5px;
+	top: 58px;
+}
+.booking-form form label#email-error{
+	font-size: 13px;
+	font-weight: bold;
+	color: red;
+	position: absolute;
+	top: 58px;
+	right: 162px;
+}
+.booking-form form label#date-error{
+	font-size: 13px;
+	font-weight: bold;
+	color: red;
+	position: absolute;
+	left: 5px;
+	top: 58px;
+}
+.booking-form form label#time-error{
+	font-size: 13px;
+	font-weight: bold;
+	color: red;
+	position: absolute;
+	top: 58px;
+	right: 162px;
+}
+.booking-form form label#people-error{
+	font-size: 13px;
+	font-weight: bold;
+	color: red;
+	position: absolute;
+	left: 5px;
+	top: 58px;
+}
+
+
+
+/* =========================
+Booking Area Style End
+========================= */
+
+/* =======================
+Footer Area Style Start
+======================= */
+
+.footer-area{
+	margin-bottom: 85px;
+}
+.footer-area .footer-background{
+	background-image: url('img/footer-bg.jpg');
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 60px 0 10px 0;
+	color: #fff;
+}
+
+.footer-area .footer-logo img{
+	width: 350px;
+}
+.footer-area .footer-details{
+	padding: 0 175px 40px 40px;
+}
+.footer-area .footer-details .footer-content{
+	margin-top: 40px;
+}
+.footer-area .footer-details .footer-content p{
+	opacity: .9;
+}
+
+
+.footer-area .footer-locationEmail{
+	padding-top: 120px;
+}
+.footer-area .footerlocation-icon{
+	text-align: right;
+}
+.footer-area  .footerlocation-icon i{
+	font-size: 35px;
+}
+.footer-area .footerlocation-content p{
+	font-size: 20px;
+	font-family: 'Bebas Neue', cursive;
+}
+
+
+.footer-area  .footeremail-icon{
+	text-align: right;
+}
+.footer-area  .footeremail-icon i{
+	font-size: 28px;
+}
+.footer-area .footer-email{
+	margin-top: 10px;
+}
+.footer-area .footeremail-address a{
+	font-size: 18px;
+	color: #fff;
+	font-family: 'Bebas Neue', cursive;
+	letter-spacing: 1px;
+	-webkit-transition: .5s;
+	-o-transition: .5s;
+	transition: .5s;
+}
+.footer-area .footeremail-address a:hover{
+	color: #ffc045;
+}
+
+
+.footer-area .coyright-socialicon{
+	margin-top: 60px;
+}
+.footer-area .footer-socialicon{
+	text-align: right;
+	padding-right: 30px;
+}
+.footer-area .footer-socialicon ul li{
+	margin: 0 5px;
+}
+.footer-area .footer-socialicon ul li a i{
+	height: 30px;
+	width: 30px;
+	border-radius: 50%;
+	background: #fff;
+	color: #000;
+	font-size: 20px;
+	padding: 6px;
+	-webkit-transition: .5s;
+	-o-transition: .5s;
+	transition: .5s;
+}
+.footer-area .footer-socialicon ul li a i:hover{
+	background: #ffc045;
+}
+.footer-area .footer-socialicon ul li a i.fab.fa-facebook-f{
+	padding-right: 9px !important;
+}
+.footer-area .footer-copyright{
+	padding-left: 40px;
+}
+.footer-area .footer-copyright p{
+	font-size: 16px;
+	font-family: 'Bebas Neue', cursive;
+	letter-spacing: 1px;
+	opacity: .8;
+}
+
+
+
+/* Scrool Top */
+.scroll-top i{
+	position: fixed;
+	right: 5px;
+	bottom: 5px;
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+	font-size: 30px;
+	background: #000;
+	color: #fff;
+	padding: 10px;
+	padding-top: 5px;
+	cursor: pointer;
+	-webkit-transition: .5s;
+	-o-transition: .5s;
+	transition: .5s;
+}
+.scroll-top i:hover{
+	background: #ffc045;
+	color: #000;
+}
+
+/* =======================
+Footer Area Style End
+======================= */
+
+
+
+
+

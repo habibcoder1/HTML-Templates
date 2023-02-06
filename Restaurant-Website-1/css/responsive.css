@@ -1,0 +1,142 @@
+/* ===================
+Max Width: 2800px
+=================== */
+@media only screen and (min-width: 1400px) and (max-width: 2800px){
+	.header-area .calltoaction-area .caltoaction-image img{ width: 90%; }
+	.header-area .calltoaction-area .calltoaction-subtitle h4{ margin-right: 62px; }
+}
+/* ==========================
+Medium Layout: 1280px
+========================== */
+@media only screen and (min-width: 992px) and (max-width: 1200px){
+	.header-area .calltoaction-area .calltoaction-subtitle{ width: 90%; }
+	.header-area .calltoaction-area .caltoaction-image img{ width: 95%; height: 450px; }
+	.booking-form form label#email-error{ right: 14%; }
+	.booking-form form label#time-error{ right: 14%; }
+
+}
+/* =======================
+Tablet Layout: 768px
+======================= */
+@media only screen and (min-width: 768px) and (max-width: 991.98px){
+	.top-header .main-menu ul li{ margin-left: 15px; }
+	.top-header .main-menu ul li a{ letter-spacing: 2px; }
+	.header-area .calltoaction-area .caltoaction-image img { width: 95%; height: 340px; float: right; }
+	.calltoaction-area .caltoaction-titlesubtitle{ margin-top: 85px; }
+	.header-area .calltoaction-area .calltoaction-subtitle{ width: 105%; }
+	.calltoaction-subtitle h4{ font-size: 22px; }
+	.calltoaction-title h1{ font-size: 75px; }
+	.popularburger-area .big-burger img{ height: 300px; }
+	.popularburger-area .small-burgers .smburger-one img{ height: 137px; }
+	.popularburger-area .small-burgers .smburger-two img{ height: 137px; }
+	.enjoyfood-area .enjoy-burgers .enjoyfood-image img{ height: 140px; }
+	.slider-subtitle h4{ font-size: 23px; }
+	.burger-slider .slider-title h2{ font-size: 36px; }
+	.burger-slider .slider-content p{ line-height: 1.5em; font-size: 18px; }
+	.burger-slider .slider-details{ padding-top: 10px; }
+	.burger-slider .slider-content{ margin-top: 0; }
+	.burger-slider .slider-image img{ height: 300px; padding-top: 50px; }
+	.burger-slider .owl-slider .owl-dots{ left: 47%; }
+	.booking-area .booking-form form input#name{ margin-right: 14px; }
+	.booking-area .booking-form form input#date{ margin-right: 14px; }
+	.booking-area .booking-form form input#people{ margin-right: 14px; }
+	.booking-area .bookingLeft1-image img{ width: 200px; }
+	.booking-area .bookingLeft2-image img{ left: -5px; width: 140px; bottom: 0; }
+	.booking-area .bookingRight-image img{ width: 170px; }
+	.footer-area{ margin-bottom: 35px; }
+	.footer-area .footer-details{ padding: 0 20px 40px 40px; }
+	.footer-area .footerlocation-content p{ line-height: 1.3em; }
+	.booking-form form label#email-error{ right: 2%; }
+	.booking-form form label#time-error{ right: 2%; }
+
+
+}
+/* =========================
+ Molibe Layout: 320px
+========================= */
+@media only screen and (max-width: 767.98px){
+	h2{ font-size: 40px; }
+	h3{ font-size: 32px; }
+	h5{ font-size: 15px; }
+	.top-header .contact-number .contact-icon i{ font-size: 26px; }
+	.logo-area{ display: none; }
+	.top-header .contact-number{ text-align: center; margin-bottom: 10px; }
+	.top-header .main-menu{ margin-top: 25px; }
+	.top-header .main-menu ul li {
+	    margin-left: 0;
+	    display: block;
+	    text-align: center;
+	    margin-bottom: 5px; 
+	}
+	.header-area .calltoaction-area .calltoaction-subtitle{ width: 63%; margin: auto; }
+	.header-area .calltoaction-area .calltoaction-subtitle h4{ 
+		font-size: 17px; 
+		text-align: center; 
+		margin: 20px; 
+	}
+	.calltoaction-title{ text-align: center; margin-top: 30px; }
+	.header-area .calltoaction-area .calltoaction-title h1{ font-size: 50px; }
+	.header-area .calltoaction-area .calltoaction-title h2{ font-size: 40px; }
+	.header-area .calltoaction-area .caltoaction-image img{ height: auto; float: none; }
+	.popularburger-area .big-burger img{ margin-bottom: 20px; height: auto; }
+	.single-enjoyfood{ margin-bottom: 50px; }
+	.burger-slider .slider-details{ width: 100%; padding: 20px 10px 30px 10px; }
+	.burger-slider .slider-image{ width: 100%;  }
+	.burger-slider .slider-image img{ height: 200px; }
+	.burger-slider .owl-slider .owl-dots{ left: 45%; }
+	.burger-slider .owl-slider .owl-dots{ font-size: 40px; }
+	.booking-area .booking-form form input{ width: 100%; }
+	.booking-form{ z-index: 1 }
+	.booking-area .bookingLeft1-image img{ width: 150px; }
+	.booking-area .bookingLeft2-image img{ left: 0; width: 120px; }
+	.booking-area .bookingRight-image img{ width: 150px; bottom: -110px; }
+	.footer-area .footer-logo img{ width: 210px; }
+	.footer-area .footer-details{ padding: 0 15px 30px 35px; }
+	.footer-area .footer-copyright{ padding-left: 0; text-align: center; }
+	.footer-area .footer-socialicon{ padding-right: 0; text-align: center; margin: 5px 0; }
+	.footer-area .coyright-socialicon{ margin-top: 20px; }
+	.footer-area .footer-details .footer-content{ margin-top: 20px; }
+	.footer-area .footerlocation-icon i{ font-size: 30px; }
+	.footer-area .footerlocation-content p{ font-size: 18px; }
+	.footer-area .footeremail-icon i{ font-size: 22px; }
+	.footer-area .footeremail-address a{ font-size: 17px; }
+	.footer-area .footerlocation-content p{ line-height: 1.3em; }
+	.footer-area .footer-locationEmail{ padding-top: 20px; }
+	.footer-area .footer-locationEmail{ padding: 20px 30px; }
+	.footerlocation-icon{ width: 20%; display: inline-block; }
+	.footerlocation-content{ width: 80%; display: inline-block; }
+	.footer-area .footeremail-icon{ width: 20%; display: inline-block; }
+	.footer-area .footeremail-address{ width: 80%; display: inline-block; }
+	.row.footer-location{ padding-right: 0; }
+	.footer-area{ margin-bottom: 0; }
+
+	.top-header{ position: relative;}
+	.main-menu{
+		display: none;
+		margin-top: 0 !important;
+		position: absolute;
+		top: 90px;
+		left: 44%;
+	}
+	.mobile-menu{ display: block;}
+	.header-area .calltoaction-area{ margin-top: 35px;}
+	.booking-form form label#email-error{ top: 86%; left: 0; width: 100%; font-size: 12px; }
+	.booking-form form label#time-error{ top: 86%; left: 0; width: 100%; }
+	
+
+}
+/* ============================
+Wide Mobile Layout: 480px
+============================ */
+@media only screen and (min-width: 575px) and (max-width: 767.98px){
+	.header-area .calltoaction-area .calltoaction-subtitle{ width: 63%; margin: auto; }
+	.header-area .calltoaction-area .calltoaction-subtitle h4{ font-size: 20px; }
+	.header-area .calltoaction-area .calltoaction-title h1{ font-size: 60px; }
+	.burger-slider .slider-image img{ height: 300px; }
+	.footer-area .footer-locationEmail{ padding-top: 120px; }
+	.footer-area .footer-locationEmail{ padding: 120px 0 0 0; }
+	.row.footer-location{ padding-right: 13px; }
+	.footer-area{ margin-bottom: 40px; }
+	.booking-form form label#email-error{ font-size: 13px; }
+	
+}

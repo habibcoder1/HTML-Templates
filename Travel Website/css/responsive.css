@@ -1,0 +1,99 @@
+/* ==========================
+Medium Layout: 1280px 
+========================== */
+@media only screen and (min-width: 992px) and (max-width: 1200px){
+	h5{ font-size: 17px; }
+	.destination-slider .destinslider-prev i{ left: -25px; }
+	.destination-slider .destinslider-next i{ left: -25px; }
+	.blog-area .forth-blog .forthblog-content{ padding: 5px; }
+	.blog-area h5 a{ font-size: 17px; }
+	.client-area .clientslider-details{ padding-left: 48px; }
+
+}
+/* ==========================
+Tablet Layout: 768px 
+========================== */
+@media only screen and (min-width: 768px) and (max-width: 991.98px){
+	.welcome-area .single-welcome{ padding: 25px 20px; }
+	.single-destination .destination-img img{ height: 300px; }
+	.single-destination .destination-content{ top: 35%; }
+	.blog-area .second-blog .secondblog-content{ padding: 12px; }
+	.blog-area h5 a{ font-size: 17px; }
+	.blog-area .second-blog img{ height: 168px; }
+	.blog-area .third-blog img{ height: 168px; }
+	.blog-area .six-blog{ margin-top: -235px; }
+	.blog-area .first-blog{ margin-bottom: 40px; }
+	.blog-area .six-blog img{ height: 168px; }
+	.blog-area .fifth-blog img{ height: 168px; }
+	.blog-area .forth-blog .forthblog-img img{ height: 168px; }
+	.blog-area .forth-blog .forthblog-content{ padding: 1px; }
+	.blog-area .forth-blog .forthblog-content h5{ font-size: 17px; }
+	.blog-area .forth-blog .forthblog-content p{ font-size: 13px; }
+	.secondblog-content h5{ font-size: 17px; }
+	.secondblog-content p{ font-size: 13px; }
+	.sixblog-content p{ font-size: 13px; }
+	.sixblog-content h5{ font-size: 17px; }
+	.blog-area .six-blog .sixblog-content{ padding: 21px; }
+	.client-area .single-cslider{ width: 92%; }
+	.client-slider .clientslider-img img{ height: 165px; width: 165px; }
+	.client-area .clientslider-details{ padding-left: 40px;}
+	.client-slider .client-name{ margin-top: 8px; }
+	.client-slider .client-name h5{ margin: 0; }
+	.discount-content h3{ font-size: 20px; padding-top: 8px; }
+
+}
+/*===========================
+Mobile Layout: 320px 
+========================== */
+@media only screen and (max-width: 767.98px){
+	h1{ font-size: 48px; }
+	h2{ font-size: 40px; }
+	.main-menu{left: 0;}
+	.fixed{ padding: 10px 55px 2px 55px !important; }
+	.header-area .top-header { padding: 20px 15px 10px 15px; }
+	.welcome-area .single-welcome{ width: 97%; margin: 5px; }
+	.welcome-area .single-welcome:last-child{ margin-bottom: 65px; }
+	.single-destination .destination-img img{ margin-bottom: 10px; }
+	.blog-area .fifth-blog{ width: 100%; margin-right: 0;  margin-bottom: 40px; }
+	.blog-area .fifth-blog img{ height: 200px; width: 100%; }
+	.blog-area .first-blog{ width: 100%; margin-right: 0; }
+	.blog-area .second-blog{ width: 100%; margin-right: 0; }
+	.blog-area .second-blog img{ height: 200px; }
+	.blog-area .third-blog{ width: 100%; margin-right: 0; margin-bottom: 20px; }
+	.blog-area .third-blog img{ height: 200px; }
+	.blog-area .forth-blog{ width: 100%; margin-right: 0; margin: 38px 0; }
+	.blog-area .forth-blog .forthblog-content{ width: 100%; }
+	.blog-area .forth-blog .forthblog-img{ width: 100%; }
+	.blog-area .forth-blog .forthblog-img img{ height: 200px; }
+	.blog-area .six-blog{ width: 100%; margin-top: 0; }
+	.blog-area .six-blog img{ height: 200px; }
+	.client-area .clientslider-img{ width: 100%; margin-bottom: 20px; }
+	.client-slider .clientslider-img img{ margin: auto; }
+	.client-area .clientslider-details{ width: 100%; padding-left: 0; text-align: center; }
+	.discount-content {
+	    width: 100%;
+	    text-align: center;
+	    margin-bottom: 30px;
+	}
+	.discount-button { text-align: center; }
+	.discount-content h3{ font-size: 22px; }
+	.footer-area{ text-align: center; margin: 50px 0; }
+	.footer-area .about{ margin-bottom: 30px; }
+	.footer-area .address{ margin-bottom: 30px; }
+	.footer-area .contact{ margin-bottom: 30px; }
+
+
+}
+/* ==========================
+Wide Mobile Layout: 575px 
+========================== */
+@media only screen and (min-width: 575px) and (max-width: 767.98px){
+	.fixed{ padding: 10px 80px 2px 80px !important; }
+	.header-area .top-header { padding: 20px 0 10px 0; }
+	.discount-content h3{ font-size: 25px; }
+	.footer-area .about{ margin-bottom: 20px; }
+	.footer-area .address{ margin-bottom: 20px; }
+	.footer-area .contact{ margin-bottom: 0; }
+
+
+}

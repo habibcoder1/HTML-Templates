@@ -1,0 +1,92 @@
+/* ==========================
+Medium Layout: 1280px 
+========================== */
+@media only screen and (min-width: 992px) and (max-width: 1200px){
+	h1{ font-size: 64px; }
+	.team-details{ z-index: 1; }
+	.subscribe-form{ z-index: 1; }
+
+}
+/* ==========================
+Tablet Layout: 768px 
+========================== */
+@media only screen and (min-width: 768px) and (max-width: 991.98px){
+	h2{ font-size: 58px; }
+	.main-menu ul li { margin-left: 0; }
+	.main-menu ul li a{ padding: 8px; }
+	.hero-area{ width: 80%; }
+	.team-details{ z-index: 1 }
+	.burger-image img{ height: 340px; width: 340px; }
+	.burger-content{ margin-top: 0; margin-bottom: 35px; }
+	.burger-btn.button{ margin-bottom: 20px; }
+	.burger-details{ padding-top: 0; }
+	.burger-title h2{ margin: 0; }
+	.bbonion-img img{ left: 5%; }
+	.statistic-round{ height: 210px; width: 210px; }
+	.statistic-count h2{ margin-top: 40px; }
+	.statistic-name h3{ font-size: 24px; }
+	.single-package{ width: 100%; }
+	.package-button.button a{ padding: 16px 35px; }
+	.package-image{ margin-bottom: 20px; }
+	.singlepackage-title{ margin-bottom: 20px; }
+	.package-title{ z-index: 1; }
+	.subscribe-form{ z-index: 1; }
+	.subscribe-title{ z-index: 1; }
+	.team-content{ z-index: 1; }
+
+}
+/*===========================
+Mobile Layout: 320px 
+========================== */
+@media only screen and (max-width: 767.98px){
+	h1{ font-size: 44px; }
+	h2{ font-size: 45px; }
+	.main-logo{ width: 40%; }
+	.main-menu ul li {
+	    margin-left: 10px;
+	    display: block;
+	    text-align: center;
+	    margin-bottom: 12px;
+	}
+	.hero-area{ width: 100%; top: 25%;}
+	.single-team{ margin-bottom: 30px; }
+	.tleaf-img img{ left: 0; }
+	.tletusleaf-img img{ right: 0; }
+	.team-area .tburger-img img{ width: 80px; }
+	.team-area .tonion-img img{ left: 0; }
+	.team-content{ width: 100%; z-index: 1; }
+	.burger-details{ text-align: center; }
+	.burger-btn.button{ margin-bottom: 25px; }
+	.burger-image img{ height: 250px; width: 250px; }
+	.burger-slider .indicate{ -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; margin-bottom: -40px; }
+	.bbburger-img img{ width: 80px; }
+	.bigburger-details{ text-align: center; margin-bottom: 70px; }
+	.bigburger-image img{ height: 220px; width: 220px; }
+	.single-statistic{ margin-bottom: 40px; }
+	.bbletusleaf-img img{ left: 0; bottom: 35%; width: 50px; }
+	.single-package{ margin-bottom: 35px; }
+	.comment-content{ width: 100%; }
+	.subscribe-title{ z-index: 1; }
+	.subscribe-content{ width: 100%; }
+	.subscribe-form #email{ width: 160px; }
+	.subscribe-form input[type="submit"]{ width: 130px; padding: 8px 2px; }
+	.subscribe-form{ z-index: 1 }
+	.subscribe-area .subburger-img img{ width: 60px; }
+	.subscribe-content{ z-index: 1; }
+	.footer-sociallinks{ margin-bottom: 40px; }
+	.footer-area .about{ margin-bottom: 40px; }
+	.footer-area .service{ margin-bottom: 40px; }
+	.package-title{ z-index: 1; }
+
+
+}
+/* ==========================
+Wide Mobile Layout: 480px 
+========================== */
+@media only screen and (min-width: 480px) and (max-width: 767.98px){
+	h1{ font-size: 56px; }
+	.hero-area{ width: 84%; }
+	.subscribe-form #email{ width: 290px; }
+	.subscribe-form input[type="submit"]{ width: 160px; padding: 8px 20px; }
+
+}

@@ -1,0 +1,142 @@
+// preloader
+.preloader{
+    background-position: center;
+    background-size: 5%;
+    background-repeat: no-repeat;
+    background-color: rgba(255, 255, 255, 255);
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    z-index: 1;
+}
+// Header style
+.header-area{
+    // to header
+    .top-header{
+        .header-social{
+            ul{
+                li{
+                    i{
+                        transition: .5s ease all;
+                        -webkit-transition: .5s ease all;
+                        -moz-transition: .5s ease all;
+                        -ms-transition: .5s ease all;
+                        -o-transition: .5s ease all;
+                    }
+                    :hover{
+                        color: $isebaPrimaryColor;
+                    }
+                }
+            }
+        }
+    }
+    // header middle
+    .header-middle{
+        input#search{
+            border: 1px solid $isebaSecondaryColor;
+            box-shadow: 0 0 5px $isebaSecondaryColor;
+            padding: 6px 12px;
+            border-radius: 5px 0 0 5px;
+            -webkit-border-radius: 5px 0 0 5px;
+            -moz-border-radius: 5px 0 0 5px;
+            -ms-border-radius: 5px 0 0 5px;
+            -o-border-radius: 5px 0 0 5px;
+        }
+        :focus{
+            box-shadow: 0 0 8px $isebaSecondaryColor !important;
+        }
+        button{
+            padding: 7px 8px;
+            border: 1px solid $isebaSecondaryColor;
+            box-shadow: 0 0 5px $isebaSecondaryColor;
+            margin-left: -4px;
+            background: $isebaPrimaryColor;
+            color: $isebaWhiteColor;
+            border-radius: 0 5px 5px 0;
+            -webkit-border-radius: 0 5px 5px 0;
+            -moz-border-radius: 0 5px 5px 0;
+            -ms-border-radius: 0 5px 5px 0;
+            -o-border-radius: 0 5px 5px 0;
+        }
+        .site-menu-icon{
+            i{
+                color: $isebaBlackColor;
+            }
+        }
+        
+    }
+    // site menu
+    .site-menu{
+        transition: opacity 0.5s ease;
+        -webkit-transition: opacity 0.5s ease;
+        -moz-transition: opacity 0.5s ease;
+        -ms-transition: opacity 0.5s ease;
+        -o-transition: opacity 0.5s ease;
+        .site-menu-search{
+            input#search{
+                border: 1px solid $isebaSecondaryColor;
+                box-shadow: 0 0 5px $isebaSecondaryColor;
+                padding: 6px 12px;
+                border-radius: 5px 0 0 5px;
+                -webkit-border-radius: 5px 0 0 5px;
+                -moz-border-radius: 5px 0 0 5px;
+                -ms-border-radius: 5px 0 0 5px;
+                -o-border-radius: 5px 0 0 5px;
+            }
+            button{
+                padding: 6px 8px;
+                border: 1px solid $isebaSecondaryColor;
+                box-shadow: 0 0 5px $isebaSecondaryColor;
+                margin-left: -4px;
+                background: $isebaPrimaryColor;
+                color: $isebaWhiteColor;
+                border-radius: 0 5px 5px 0;
+                -webkit-border-radius: 0 5px 5px 0;
+                -moz-border-radius: 0 5px 5px 0;
+                -ms-border-radius: 0 5px 5px 0;
+                -o-border-radius: 0 5px 5px 0;
+            }
+        }
+        ul.menu{
+            li{
+                .active_menu{
+                    background-color: $isebaBlackColor;
+                    color: $isebaWhiteColor;
+                }
+                a{
+                    transition: .5s ease all;
+                    -webkit-transition: .5s ease all;
+                    -moz-transition: .5s ease all;
+                    -ms-transition: .5s ease all;
+                    -o-transition: .5s ease all;
+                }
+            }
+            
+        }
+    }
+    // main menu
+    .main-menu{
+        ul {
+            li{
+                a{
+                    transition: .5s ease all;
+                    -webkit-transition: .5s ease all;
+                    -moz-transition: .5s ease all;
+                    -ms-transition: .5s ease all;
+                    -o-transition: .5s ease all;
+                }
+                :hover{
+                    color: $isebaBlackColor;
+                }
+            }
+        }
+    } 
+    
+} 
+// menu open
+.menu-show{
+    display: block;
+    opacity: 1;
+}

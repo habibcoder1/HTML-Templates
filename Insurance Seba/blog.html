@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta Tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- site title -->
+    <title>Blog | Insurance Seba</title>
+    <!-- favicon icon -->
+    <link rel="shortcut icon" href="assets/img/logo.png" type="image/x-icon">
+    <!-- google font -->
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <!-- all stylesheet -->
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+    <link rel="stylesheet" href="assets/css/tailwind.min.css">
+    <link rel="stylesheet" href="assets/css/custom.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- preloader -->
+    <div class="preloader" style="background-image: url('assets/img/preloader.gif');"></div>
+    <!-- ==========================
+        Heder Area Start
+    ============================-->
+    <div class="header-area">
+        <div class="container mx-auto">
+            <!-- top header -->
+            <div class="top-header bg-gray-700 text-white flex items-center justify-between px-2 py-1">
+                <div class="header-notice">
+                    <p class="text-white capitalize">Protect your assets</p>
+                </div>
+                <div class="header-social">
+                    <ul class="social-icons">
+                        <li><a href="http://facebook.com/habibcoder1" target="_blank" title="Facebook"><i class="fa-brands fa-facebook-f px-1"></i></a></li>
+                        <li><a href="http://twitter.com/haibcoder" target="_blank" title="Twitter"><i class="fa-brands fa-twitter text-sm px-1"></i></a></li>
+                        <li><a href="http://linkedin.com/in/habibcoder" target="_blank" title="LinkedIn"><i class="fa-brands fa-linkedin-in text-sm px-1"></i></a></li>
+                        <li><a href="mailto:contact.habibcoder@gmail.com" target="_blank" title="Email"><i class="fa-regular fa-envelope text-sm px-1"></i></a></li>
+                        <li><a href="#" target="_blank" title="Phone"><i class="fa-solid fa-phone text-[13px] px-1"></i>+8801819437714</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- middle header -->
+            <div class="header-middle flex items-center justify-between px-2 py-2">
+                <div class="main-logo">
+                    <a href="index.html"><img class="w-52" src="assets/img/logo.png" alt="logo"></a>
+                </div>
+                <div class="main-search hidden sm:block">
+                    <form action="#">
+                        <input class="w-52 sm:w-64 md:w-96 focus:outline-none" type="search" placeholder="Search for...." name="search" id="search">
+                        <button class="transition-all hover:!bg-[#333]"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    </form>
+                </div>
+                <div class="site-menu-icon">
+                    <i class="fa-solid fa-bars cursor-pointer p-3 rounded text-lg" title="Menu Open"></i>
+                </div>
+            </div>
+            <!-- site menu -->
+            <div class="site-menu bg-[#DD3627] w-52 sm:w-64 ml-auto h-full fixed right-0 top-0 p-1 sm:p-4 z-50 hidden">
+                <div class="close-button mb-5">
+                    <i class="fa-sharp fa-regular fa-circle-xmark text-white text-2xl cursor-pointer mt-1 ml-1 sm:mt-0 sm:ml-0" title="Close"></i>
+                </div>
+                <div class="site-menu-search sm:hidden px-[6px] py-2">
+                    <form action="#">
+                        <input class="w-36 focus:outline-none" type="search" placeholder="Search for...." name="search" id="search">
+                        <button><i class="fa-solid fa-magnifying-glass"></i></button>
+                    </form>
+                </div>
+                <ul class="menu">
+                    <li class="block"><a class="text-white py-2 pl-4 font-bold block border-b-2 rounded-b-md text-lg hover:bg-[#333] hover:text-white" href="index.html">home</a></li>
+                    <li class="block"><a class="active_menu text-white py-2 pl-4 font-bold block border-b-2 rounded-b-md text-lg hover:bg-[#333] hover:text-white" href="blog.html">blog</a></li>
+                    <li class="block"><a class="text-white py-2 pl-4 font-bold block border-b-2 rounded-b-md text-lg hover:bg-[#333] hover:text-white" href="single-policy.html">policy</a></li>
+                    <li class="block"><a class="text-white py-2 pl-4 font-bold block border-b-2 rounded-b-md text-lg hover:bg-[#333] hover:text-white" href="contact.html">contact</a></li>
+                </ul>
+                <div class="site-menu-author absolute bottom-1 left-1/2 -translate-x-1/2 w-full">
+                    <p class="text-white text-center">Created by <a href="http://habibcoder.com" target="_blank" class="underline hover:opacity-90 transition-all">HabibCoder</a></p>
+                </div>
+            </div>
+            <!-- main menu -->
+            <div class="main-menu hidden sm:block">
+                <ul class="menu flex justify-center items-center">
+                    <li class="bg-[#4ECDB0] pr-6 pl-1 py-2 text-white text-left w-full">
+                        <a class="text-xl flex justify-start items-center" href="index.html">
+                            <img class="w-6 invert mr-[2px]" src="assets/img/hexagon.png" alt="hexagon image">home</a>
+                    </li>
+                    <li class="bg-[#DD3528] pr-6 pl-1 py-2 text-white text-left w-full">
+                        <a class="text-xl flex justify-start items-center" href="blog.html"><img class="w-6 invert mr-[2px]" src="assets/img/hexagon.png" alt="hexagon image">blog</a>
+                    </li>
+                    <li class="bg-[#3F86C8] pr-6 pl-1 py-2 text-white text-left w-full">
+                        <a class="text-xl flex justify-start items-center" href="single-policy.html"><img class="w-6 invert mr-[2px]" src="assets/img/hexagon.png" alt="hexagon image">policy</a>
+                    </li>
+                    <li class="bg-[#FEA501] pr-6 pl-1 py-2 text-white text-left w-full">
+                        <a class="text-xl flex justify-start items-center" href="contact.html"><img class="w-6 invert mr-[2px]" src="assets/img/hexagon.png" alt="hexagon image">contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- =========================
+        Body Section
+    ========================== -->
+    <section class="body-section blog-page pt-2">
+        <div class="container mx-auto grid grid-cols-1 md:grid-cols-4 lg:grid-cols-5 gap-3">
+            <!-- main conent -->
+            <div class="body-main_content col-span-3 lg:col-span-4">
+                <!-- blog hero section -->
+                <div class="blog-hero mt-1">
+                    <h2 class="title uppercase bg-[#EEEEEE] pl-2 text-[26px]">latest news</h2>
+                </div>
+                <!-- blog details -->
+                <div class="blog-details border-l-8 border-[#EEEEEE] p-4">
+                    <!-- blog post -->
+                    <div class="blog-row grid sm:grid-cols-3 sm:gap-4">
+                        <!-- single blog -->
+                        <article class="mb-6">
+                            <div class="post-thumb">
+                                <a href="#" class="block overflow-hidden"><img class="aspect-video transition-all duration-700" src="assets/img/iseba-four.jpg" alt="post thumbnail"></a>
+                            </div>
+                            <div class="category mt-2">
+                                <a href="#"><p class="uppercase">business</p></a>
+                            </div>
+                            <div class="title mb-1">
+                                <a href="single.html"><h2 class="font-semibold text-xl leading-7 transition-all hover:text-[#DD3627]">Flex mug: powerfully simple WordPress theme.</h2></a>
+                            </div>
+                            <div class="description">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis voluptate architecto cum deleniti dolor vel ipsa, incidunt asperiores neque, obcaecati similique? Porro neque explicabo ducimus?</p>
+                            </div>
+                        </article>
+                         <!-- single blog -->
+                        <article class="mb-6">
+                            <div class="post-thumb">
+                                <a href="#" class="block overflow-hidden"><img class="aspect-video transition-all duration-700" src="assets/img/iseba-three.jpg" alt="post thumbnail"></a>
+                            </div>
+                            <div class="category mt-2">
+                                <a href="#"><p class="uppercase">entertainment</p></a>
+                            </div>
+                            <div class="title mb-1">
+                                <a href="single.html"><h2 class="font-semibold text-xl leading-7 transition-all hover:text-[#DD3627]">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2></a>
+                            </div>
+                            <div class="description">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis voluptate architecto cum deleniti dolor vel ipsa, incidunt asperiores neque, obcaecati similique? Porro neque explicabo ducimus?</p>
+                            </div>
+                        </article>
+                         <!-- single blog -->
+                        <article class="mb-6">
+                            <div class="post-thumb">
+                                <a href="#" class="block overflow-hidden"><img class="aspect-video transition-all duration-700" src="assets/img/iseba-five.jpg" alt="post thumbnail"></a>
+                            </div>
+                            <div class="category mt-2">
+                                <a href="#"><p class="uppercase">fashions</p></a>
+                            </div>
+                            <div class="title mb-1">
+                                <a href="single.html"><h2 class="font-semibold text-xl leading-7 transition-all hover:text-[#DD3627]">Other theme: powerfully simple WordPress theme.</h2></a>
+                            </div>
+                            <div class="description">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis voluptate architecto cum deleniti dolor vel ipsa, incidunt asperiores neque, obcaecati similique? Porro neque explicabo ducimus?</p>
+                            </div>
+                        </article>
+                         <!-- single blog -->
+                        <article class="mb-6">
+                            <div class="post-thumb">
+                                <a href="#" class="block overflow-hidden"><img class="aspect-video transition-all duration-700" src="assets/img/iseba-one.jpg" alt="post thumbnail"></a>
+                            </div>
+                            <div class="category mt-2">
+                                <a href="#"><p class="uppercase">business</p></a>
+                            </div>
+                            <div class="title mb-1">
+                                <a href="single.html"><h2 class="font-semibold text-xl leading-7 transition-all hover:text-[#DD3627]">Onno kicu: powerfully simple WordPress theme.</h2></a>
+                            </div>
+                            <div class="description">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis voluptate architecto cum deleniti dolor vel ipsa, incidunt asperiores neque, obcaecati similique? Porro neque explicabo ducimus?</p>
+                            </div>
+                        </article>
+                         <!-- single blog -->
+                        <article class="mb-6">
+                            <div class="post-thumb">
+                                <a href="#" class="block overflow-hidden"><img class="aspect-video transition-all duration-700" src="assets/img/iseba-four.jpg" alt="post thumbnail"></a>
+                            </div>
+                            <div class="category mt-2">
+                                <a href="#"><p class="uppercase">fashions</p></a>
+                            </div>
+                            <div class="title mb-1">
+                                <a href="single.html"><h2 class="font-semibold text-xl leading-7 transition-all hover:text-[#DD3627]">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</h2></a>
+                            </div>
+                            <div class="description">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis voluptate architecto cum deleniti dolor vel ipsa, incidunt asperiores neque, obcaecati similique? Porro neque explicabo ducimus?</p>
+                            </div>
+                        </article>
+                         <!-- single blog -->
+                        <article class="mb-6">
+                            <div class="post-thumb">
+                                <a href="#" class="block overflow-hidden"><img class="aspect-video transition-all duration-700" src="assets/img/iseba-five.jpg" alt="post thumbnail"></a>
+                            </div>
+                            <div class="category mt-2">
+                                <a href="#"><p class="uppercase">entertainment</p></a>
+                            </div>
+                            <div class="title mb-1">
+                                <a href="single.html"><h2 class="font-semibold text-xl leading-7 transition-all hover:text-[#DD3627]">Flex mug: powerfully simple WordPress theme.</h2></a>
+                            </div>
+                            <div class="description">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis voluptate architecto cum deleniti dolor vel ipsa, incidunt asperiores neque, obcaecati similique? Porro neque explicabo ducimus?</p>
+                            </div>
+                        </article>
+                    </div>
+                    <!-- more post button -->
+                    <div class="more-post_button mt-2">
+                        <a href="#" class="isebaButton !border-2">more posts</a>
+                    </div>
+                </div>
+            </div>
+            <!-- right widgets -->
+            <div class="body-right">
+                <!-- one widget section -->
+                <div class="left_section-one bg-[#EEEEEE]">
+                    <div class="section-title">
+                        <h5 class="text-[15px] uppercase bg-[#EEEEEE] pl-1 py-1">life insurance</h5>
+                    </div>
+                    <!-- widget one -->
+                    <div class="widget-one grid grid-cols-3 gap-2 pt-4 p-1 mr-2 sm:mr-1 mb-1 bg-white">
+                        <div class="widget-img">
+                            <a href="#"><img class="mb-2 md:mb-0 md:aspect-square" src="assets/img/iseba-one.jpg" alt="widget photo"></a>
+                        </div>
+                        <div class="widget-content col-span-2">
+                            <div class="widget-title mb-1 sm:mb-0">
+                                <a href="#"><p class="uppercase opacity-90 transition-all hover:text-[#DD3627]">business</p></a>
+                            </div>
+                            <div class="widget-description mb-1">
+                                <p class="text-[14px]">Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- widget two -->
+                    <div class="widget-two grid grid-cols-3 gap-2 pt-4 p-1 mr-2 sm:mr-1 mb-1 bg-white">
+                        <div class="widget-img">
+                            <a href="#"><img class="mb-2 md:mb-0 md:aspect-square" src="assets/img/iseba-two.jpg" alt="widget photo"></a>
+                        </div>
+                        <div class="widget-content col-span-2">
+                            <div class="widget-title mb-1 sm:mb-0">
+                                <a href="#"><p class="uppercase opacity-90 transition-all hover:text-[#DD3627]">fashions</p></a>
+                            </div>
+                            <div class="widget-description mb-1">
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- widget three -->
+                    <div class="widget-three grid grid-cols-3 gap-2 pt-4 p-1 mr-2 sm:mr-1 mb-1 bg-white">
+                        <div class="widget-img">
+                            <a href="#"><img class="mb-2 md:mb-0 md:aspect-square" src="assets/img/iseba-three.jpg" alt="widget photo"></a>
+                        </div>
+                        <div class="widget-content col-span-2">
+                            <div class="widget-title mb-1 sm:mb-0">
+                                <a href="#"><p class="uppercase opacity-90 transition-all hover:text-[#DD3627]">business</p></a>
+                            </div>
+                            <div class="widget-description mb-1">
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- widget button -->
+                    <div class="more-btn mt-4">
+                        <a href="#" class="isebaButton">more latest news</a>
+                    </div>
+                </div>
+                <!-- widget second section -->
+                <div class="left_section-two bg-[#EEEEEE] mt-4">
+                    <div class="section-title">
+                        <h5 class="text-[15px] uppercase bg-[#EEEEEE] pl-1 py-1">general insurance</h5>
+                    </div>
+                    <!-- widget one -->
+                    <div class="widget-one grid grid-cols-3 gap-2 pt-4 p-1 mr-2 sm:mr-1 mb-1 bg-white">
+                        <div class="widget-img">
+                            <a href="#"><img class="mb-2 md:mb-0 md:aspect-square" src="assets/img/iseba-four.jpg" alt="widget photo"></a>
+                        </div>
+                        <div class="widget-content col-span-2">
+                            <div class="widget-title mb-1 sm:mb-0">
+                                <a href="#"><p class="uppercase opacity-90 transition-all hover:text-[#DD3627]">business</p></a>
+                            </div>
+                            <div class="widget-description mb-1">
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- widget two -->
+                    <div class="widget-two grid grid-cols-3 gap-2 pt-4 p-1 mr-2 sm:mr-1 mb-1 bg-white">
+                        <div class="widget-img">
+                            <a href="#"><img class="mb-2 md:mb-0 md:aspect-square" src="assets/img/iseba-five.jpg" alt="widget photo"></a>
+                        </div>
+                        <div class="widget-content col-span-2">
+                            <div class="widget-title mb-1 sm:mb-0">
+                                <a href="#"><p class="uppercase opacity-90 transition-all hover:text-[#DD3627]">entertainment</a>
+                            </div>
+                            <div class="widget-description mb-1">
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- widget three -->
+                    <div class="widget-three grid grid-cols-3 gap-2 pt-4 p-1 mr-2 sm:mr-1 mb-1 bg-white">
+                        <div class="widget-img">
+                            <a href="#"><img class="mb-2 md:mb-0 md:aspect-square" src="assets/img/iseba-one.jpg" alt="widget photo"></a>
+                        </div>
+                        <div class="widget-content col-span-2">
+                            <div class="widget-title mb-1 sm:mb-0">
+                                <a href="#"><p class="uppercase opacity-90 transition-all hover:text-[#DD3627]">business</p></a>
+                            </div>
+                            <div class="widget-description mb-1">
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- button -->
+                    <div class="more-btn mt-4">
+                        <a href="#" class="isebaButton">more latest news</a>
+                    </div>
+                </div>
+                <!-- widget three section -->
+                <div class="right_section-one bg-[#EEEEEE] pl-1 mt-2">
+                    <div class="section-title">
+                        <h5 class="text-[15px] uppercase bg-[#EEEEEE] pl-1 py-1">insurance notice</h5>
+                    </div>
+                    <!-- widget one -->
+                    <div class="notice-details bg-white">
+                        <ul class="w-[90%] mx-auto">
+                            <li class="block text-center"><a class="block transition-all py-2 hover:text-[#DD3627]" href="#">notice one</a></li>
+                            <li class="block text-center"><a class="block transition-all py-2 hover:text-[#DD3627]" href="#">notice two</a></li>
+                            <li class="block text-center"><a class="block transition-all py-2 hover:text-[#DD3627]" href="#">notice three</a></li>
+                            <li class="block text-center"><a class="block transition-all py-2 hover:text-[#DD3627]" href="#">notice four</a></li>
+                            <li class="block text-center"><a class="block transition-all py-2 hover:text-[#DD3627] !border-transparent" href="#">notice six</a></li>
+                        </ul>
+                    </div>
+                    <!-- widget button -->
+                    <div class="more-btn mt-4">
+                        <a href="#" class="isebaButton">more latest news</a>
+                    </div>
+                </div>
+                <!-- widget four section -->
+                <div class="right_section-two bg-[#EEEEEE] pl-1 mt-4 sm:mt-3">
+                    <div class="section-title">
+                        <h5 class="text-[15px] uppercase bg-[#EEEEEE] pl-1 py-1">opinion</h5>
+                    </div>
+                    <!-- widget one -->
+                    <div class="widget-one pt-2 bg-white">
+                        <div class="widget-img mb-2">
+                            <a href="#" class="block overflow-hidden"><img class="aspect-video duration-500" src="assets/img/iseba-one.jpg" alt="widget photo"></a>
+                        </div>
+                        <div class="widget-content pl-3 col-span-2">
+                            <div class="widget-title mb-1 sm:mb-0">
+                                <a href="#"><p class="uppercase opacity-90 transition-all hover:text-[#DD3627]">fashions</p></a>
+                            </div>
+                            <div class="widget-description mb-1 pb-4">
+                                <p class="text-[14px]">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- widget two -->
+                    <div class="widget-two pt-2 mb-1 bg-white">
+                        <div class="widget-img mb-2">
+                            <a href="#" class="block overflow-hidden"><img class="aspect-video duration-500" src="assets/img/iseba-two.jpg" alt="widget photo"></a>
+                        </div>
+                        <div class="widget-content pl-3 col-span-2">
+                            <div class="widget-title mb-1 sm:mb-0">
+                                <a href="#"><p class="uppercase opacity-90 transition-all hover:text-[#DD3627]">entertainment</p></a>
+                            </div>
+                            <div class="widget-description mb-1 pb-3">
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- widget button -->
+                    <div class="more-btn mt-4">
+                        <a href="#" class="isebaButton">more latest news</a>
+                    </div>
+                </div>
+                <!-- five widget section -->
+                <div class="right_section-three p-1 mt-4">
+                    <div class="section-title">
+                        <h6 class="bg-[#333] text-[15px] font-normal text-center text-white py-1">Are you fan of the themeelse blog?</h6>
+                    </div>
+                    <div class="wdget-form">
+                        <form action="#">
+                            <div class="yes mt-3 ml-2">
+                                <input type="radio" name="themeelse-support" id="yes">
+                                <label class="pl-1" for="yes">Yes</label>
+                            </div>
+                            <div class="not my-3 ml-2">
+                                <input type="radio" name="themeelse-support" id="not">
+                                <label class="pl-1" for="not">Not</label>
+                            </div>
+                            <div class="of-course mb-3 ml-2">
+                                <input type="radio" name="themeelse-support" id="of-course">
+                                <label class="pl-1" for="of-course">Of Course!</label>
+                            </div>
+                            <button class="vote hover:!bg-[#DD3627]">Vote</button>
+                            <button class="result ml-2 hover:!bg-[#DD3627] xl:mt-2 xl:ml-0 2xl:mt-0 2xl:ml-1">Result</button>
+                        </form>
+                    </div>
+                    <ul class="social-link text-end md:text-center lg:text-end mb-1 mt-4">
+                        <li class="m-0 md:!m-1 lg:!m-0"><a class="facebook" href="http://facebook.com/habibcoder1" target="_blank" title="Facebook"><i class="fa-brands fa-facebook-f"></i></a></li>
+                        <li class="m-0 md:!m-1 lg:!m-0"><a class="twitter" href="http://twitter.com/habibcoder" target="_blank" title="Twitter"><i class="fa-brands fa-twitter"></i></a></li>
+                        <li class="m-0 md:!m-1 lg:!m-0"><a class="linkedin" href="http://linkedin.com/in/habibcoder" target="_blank" title="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                        <li class="m-0 md:!m-1 lg:!m-0"><a class="email" href="mailto:contact.habibcoder@gmail.com" target="_blank" title="Email"><i class="fa-regular fa-envelope"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- =========================
+        Footer Area
+    ========================== -->
+    <footer class="footer-area mt-5">
+        <div class="container mx-auto grid grid-cols-1 sm:grid-cols-3 gap-1">
+            <div class="footer-one bg-[#EEEEEE] px-3 pt-2 pb-5">
+                <div class="footer-title">
+                    <h4 class="capitalize text-lg mb-1 font-normal">mission</h4>
+                </div>
+                <div class="footer-description">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus vitae, sequi libero molestias corrupti quisquam tempora quod nostrum consequatur nobis id, repellat quis cum magnam? Alias optio fuga qui facilis!</p>
+                </div>
+            </div>
+            <div class="footer-two bg-[#EEEEEE] px-3 pt-2 pb-5">
+                <div class="footer-title">
+                    <h4 class="capitalize text-lg mb-1 font-normal">about</h4>
+                </div>
+                <div class="footer-description">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus vitae, sequi libero molestias corrupti quisquam tempora quod nostrum consequatur nobis id, repellat quis cum magnam? Alias optio fuga qui facilis!</p>
+                </div>
+            </div>
+            <div class="footer-three bg-[#EEEEEE] px-3 pt-2 pb-5">
+                <div class="footer-title">
+                    <h4 class="capitalize text-lg mb-1 font-normal">contact us</h4>
+                </div>
+                <div class="footer-address">
+                    <p class="mb-1">91, kazi nazrul islam avenue, dhaka 1215, bangladesh</p>
+                    <p class="mb-1"><i class="fa-solid fa-phone mr-1"></i> +8801819437714</p>
+                    <p class="mb-1"><i class="fa-regular fa-envelope mr-1"></i> insurance.seba@gmail.com</p>
+                    <ul class="footer-social-link">
+                        <li class="mr-1"><a href="http://facebook.com/habibcoder1"><i class="fa-brands fa-facebook-f"></i></a></li>
+                        <li class="mr-1"><a href="http://twitter.com/habibcoder"><i class="fa-brands fa-twitter text-sm px-1"></i></a></li>
+                        <li><a href="http://linkedin.com/in/habibcoder"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="container mx-auto bg-[#333]">
+            <div class="copyright-section">
+                <p class="text-white text-center p-1">&copy; 2023 Insurance Seba. All Right Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- all scripts -->
+    <script src="assets/js/jquery-3.7.0.min.js"></script>
+    <script src="assets/js/custom.js"></script>
+    <script>
+        // preloader //
+        let loader = document.querySelector('.preloader');
+        window.addEventListener('load', function(){
+            loader.style.display = 'none';
+        });
+    </script>
+</body>
+</html>

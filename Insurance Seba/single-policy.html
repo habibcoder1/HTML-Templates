@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta Tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- site title -->
+    <title>Single Policy | Insurance Seba</title>
+    <!-- favicon icon -->
+    <link rel="shortcut icon" href="assets/img/logo.png" type="image/x-icon">
+    <!-- google font -->
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <!-- all stylesheet -->
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+    <link rel="stylesheet" href="assets/css/tailwind.min.css">
+    <link rel="stylesheet" href="assets/css/custom.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- preloader -->
+    <div class="preloader" style="background-image: url('assets/img/preloader.gif');"></div>
+    <!-- ==========================
+        Heder Area Start
+    ============================-->
+    <div class="header-area">
+        <div class="container mx-auto">
+            <!-- top header -->
+            <div class="top-header bg-gray-700 text-white flex items-center justify-between px-2 py-1">
+                <div class="header-notice">
+                    <p class="text-white capitalize">Protect your assets</p>
+                </div>
+                <div class="header-social">
+                    <ul class="social-icons">
+                        <li><a href="http://facebook.com/habibcoder1" target="_blank" title="Facebook"><i class="fa-brands fa-facebook-f px-1"></i></a></li>
+                        <li><a href="http://twitter.com/haibcoder" target="_blank" title="Twitter"><i class="fa-brands fa-twitter text-sm px-1"></i></a></li>
+                        <li><a href="http://linkedin.com/in/habibcoder" target="_blank" title="LinkedIn"><i class="fa-brands fa-linkedin-in text-sm px-1"></i></a></li>
+                        <li><a href="mailto:contact.habibcoder@gmail.com" target="_blank" title="Email"><i class="fa-regular fa-envelope text-sm px-1"></i></a></li>
+                        <li><a href="#" target="_blank" title="Phone"><i class="fa-solid fa-phone text-[13px] px-1"></i>+8801819437714</a></li>
+                    </ul>
+                </div>
+            </div>
+            <!-- middle header -->
+            <div class="header-middle flex items-center justify-between px-2 py-2">
+                <div class="main-logo">
+                    <a href="index.html"><img class="w-52" src="assets/img/logo.png" alt="logo"></a>
+                </div>
+                <div class="main-search hidden sm:block">
+                    <form action="#">
+                        <input class="w-52 sm:w-64 md:w-96 focus:outline-none" type="search" placeholder="Search for...." name="search" id="search">
+                        <button class="transition-all hover:!bg-[#333]"><i class="fa-solid fa-magnifying-glass"></i></button>
+                    </form>
+                </div>
+                <div class="site-menu-icon">
+                    <i class="fa-solid fa-bars cursor-pointer p-3 rounded text-lg" title="Menu Open"></i>
+                </div>
+            </div>
+            <!-- site menu -->
+            <div class="site-menu bg-[#DD3627] w-52 sm:w-64 ml-auto h-full fixed right-0 top-0 p-1 sm:p-4 z-50 hidden">
+                <div class="close-button mb-5">
+                    <i class="fa-sharp fa-regular fa-circle-xmark text-white text-2xl cursor-pointer mt-1 ml-1 sm:mt-0 sm:ml-0" title="Close"></i>
+                </div>
+                <div class="site-menu-search sm:hidden px-[6px] py-2">
+                    <form action="#">
+                        <input class="w-36 focus:outline-none" type="search" placeholder="Search for...." name="search" id="search">
+                        <button><i class="fa-solid fa-magnifying-glass"></i></button>
+                    </form>
+                </div>
+                <ul class="menu">
+                    <li class="block"><a class="text-white py-2 pl-4 font-bold block border-b-2 rounded-b-md text-lg hover:bg-[#333] hover:text-white" href="index.html">home</a></li>
+                    <li class="block"><a class="text-white py-2 pl-4 font-bold block border-b-2 rounded-b-md text-lg hover:bg-[#333] hover:text-white" href="blog.html">blog</a></li>
+                    <li class="block"><a class="active_menu text-white py-2 pl-4 font-bold block border-b-2 rounded-b-md text-lg hover:bg-[#333] hover:text-white" href="single-policy.html">policy</a></li>
+                    <li class="block"><a class="text-white py-2 pl-4 font-bold block border-b-2 rounded-b-md text-lg hover:bg-[#333] hover:text-white" href="contact.html">contact</a></li>
+                </ul>
+                <div class="site-menu-author absolute bottom-1 left-1/2 -translate-x-1/2 w-full">
+                    <p class="text-white text-center">Created by <a href="http://habibcoder.com" target="_blank" class="underline hover:opacity-90 transition-all">HabibCoder</a></p>
+                </div>
+            </div>
+            <!-- main menu -->
+            <div class="main-menu hidden sm:block">
+                <ul class="menu flex justify-center items-center">
+                    <li class="bg-[#4ECDB0] pr-6 pl-1 py-2 text-white text-left w-full">
+                        <a class="text-xl flex justify-start items-center" href="index.html">
+                            <img class="w-6 invert mr-[2px]" src="assets/img/hexagon.png" alt="hexagon image">home</a>
+                    </li>
+                    <li class="bg-[#DD3528] pr-6 pl-1 py-2 text-white text-left w-full">
+                        <a class="text-xl flex justify-start items-center" href="blog.html"><img class="w-6 invert mr-[2px]" src="assets/img/hexagon.png" alt="hexagon image">blog</a>
+                    </li>
+                    <li class="bg-[#3F86C8] pr-6 pl-1 py-2 text-white text-left w-full">
+                        <a class="text-xl flex justify-start items-center" href="single-policy.html"><img class="w-6 invert mr-[2px]" src="assets/img/hexagon.png" alt="hexagon image">policy</a>
+                    </li>
+                    <li class="bg-[#FEA501] pr-6 pl-1 py-2 text-white text-left w-full">
+                        <a class="text-xl flex justify-start items-center" href="contact.html"><img class="w-6 invert mr-[2px]" src="assets/img/hexagon.png" alt="hexagon image">contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- =========================
+        Body Section
+    ========================== -->
+    <section class="body-section single-policy-page pt-2">
+        <div class="container mx-auto grid grid-cols-1 md:grid-cols-4 lg:grid-cols-6 lg:gap-3">
+            <!-- main conent -->
+            <div class="body-main_content col-span-3 lg:col-span-4 my-4 mx-4">
+               <!-- single post -->
+                <article>
+                    <div class="post-title">
+                        <h2 class="font-semibold capitalize text-[34px] leading-10">Education protection plan (EPP) Plus</h2>
+                    </div>
+                    <div class="post_date_author_category justify-center flex mt-2 mb-3">
+                        <a href="#" class="category capitalize transition-all hover:text-[#DD3627]"> Category</a>
+                        <p class="comments hidden sm:block mx-6">
+                            <i class="fa-regular fa-comment mr-1"></i>
+                            <a href="#" class="capitalize transition-all hover:text-[#DD3627]"> 24 comments</a>
+                        </p>
+                        <p class="view hidden sm:block"><i class="fa-solid fa-eye mr-1"></i> 112 view</p>
+                    </div>
+                    <div class="post-thumbnail mb-6">
+                        <img class="aspect-video w-full" src="assets/img/iseba-one.jpg" alt="post image">
+                    </div>
+                    <div class="post-content mt-4">
+                        <h3 class="post-second_title capitalize font-semibold text-[28px] px-2 border-2 border-gray-300 leading-8">Why do you need endwomen policy</h3>
+                        <div class="post-main_content border-2 border-t-0 border-gray-300 py-1 px-2">
+                            <p class="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae cum voluptatibus nemo libero, nobis ad quibusdam veritatis odit nesciunt quod culpa et vero incidunt omnis accusamus esse, itaque deserunt sed, similique minima iusto. Voluptate quisquam ipsum, cum quaerat corrupti aspernatur blanditiis! Error sapiente</p>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus commodi laborum placeat quae magni eveniet consectetur enim, nemo, tenetur molestiae rem ea officiis provident optio voluptates, obcaecati autem in? Maiores totam soluta quisquam facere eaque cupiditate, veritatis ipsa repellendus accusantium placeat non, sapiente illo ut accusamus earum ipsam quibusdam rerum quasi labore ducimus tenetur voluptates, esse quidem. Eveniet natus odit maiores, aliquam deserunt ullam incidunt distinctio dolor! Vitae neque at modi hic enim, minus repellat voluptate, ullam suscipit quo alias!</p>
+                        </div>
+                    </div>
+                </article>
+                <hr class="mt-7 mb-5">
+                <!-- accordion -->
+                <div class="policy-accordion mb-2 sm:mb-3 p-2 sm:p-4 border-2 border-gray-300">
+                    <h3 class="accordion-title capitalize text-[26px] font-extrabold">Claim Coverage</h3>
+                    <div class="accordion">
+                        <!-- first item -->
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button grid grid-cols-12 items-center w-full">
+                                <i class="fa-solid fa-briefcase text-xl sm:text-2xl text-left text-[#DD3627]"></i>
+                                <h4 class="col-span-10 text-left capitalize text-lg font-bold">accordion One</h4>
+                                <span class="right-icon text-right"><i class="fa-solid fa-chevron-down text-lg"></i></span>
+                            </button>
+                          </h2>
+                          <div class="accordion-content mb-2">
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Amet, voluptates vero. Ad fugit, magni inventore tenetur quis obcaecati deleniti consequuntur voluptate accusamus ullam. Praesentium ad sint dolor blanditiis fugit ut laboriosam consectetur accusantium veritatis suscipit. In praesentium maxime, vel commodi iusto nam animi inventore eum. Distinctio laudantium sunt laboriosam nostrum!</p>
+                          </div>
+                        </div>
+                        <hr class="opacity-30">
+                        <!-- second item -->
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button grid grid-cols-12 items-center w-full">
+                                <i class="fa-solid fa-comment-dollar text-xl sm:text-2xl text-left text-yellow-400"></i>
+                                <h4 class="col-span-10 text-left capitalize text-lg font-bold">accordion Two</h4>
+                                <span class="right-icon text-right"><i class="fa-solid fa-chevron-right text-lg"></i></span>
+                            </button>
+                          </h2>
+                          <div class="accordion-content hidden mb-2">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, molestiae pariatur quia, laborum dolor expedita, amet vel illum dolorem nobis voluptas rerum. Repellendus atque consequatur repudiandae veritatis quaerat earum, nostrum ex tempore maiores cupiditate quae nisi quod adipisci pariatur dolor accusamus velit quo, a iusto nemo tempora sapiente. Enim, et?</p>
+                          </div>
+                        </div>
+                        <hr class="opacity-30">
+                        <!-- third item -->
+                        <div class="accordion-item">
+                          <h2 class="accordion-header">
+                            <button class="accordion-button grid grid-cols-12 items-center w-full">
+                                <i class="fa-regular fa-circle-xmark text-xl sm:text-2xl text-left text-[#DD3627]"></i>
+                                <h4 class="col-span-10 text-left capitalize text-lg font-bold">accordion Third</h4>
+                                <span class="right-icon text-right"><i class="fa-solid fa-chevron-right text-lg"></i></span>
+                            </button>
+                          </h2>
+                          <div class="accordion-content hidden">
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, molestiae pariatur quia, laborum dolor expedita, amet vel illum dolorem nobis voluptas rerum. Repellendus atque consequatur repudiandae veritatis quaerat earum, nostrum ex tempore maiores cupiditate quae nisi quod adipisci pariatur dolor accusamus velit quo, a iusto nemo tempora sapiente. Enim, et?</p>
+                          </div>
+                        </div>
+                    </div>                         
+                </div>
+                <!-- related policy title -->
+                <h3 class="relatedpolicy-title capitalize text-xl font-extrabold">related policy</h3>
+                <hr class="mb-6">
+                <!-- latest posts -->
+                <div class="latest-post mb-8 border-2 border-gray-300">
+                    <h3 class="title capitalize text-lg font-extrabold bg-[#eee] py-1 pl-1">latest news</h3>
+                    <div class="latest-post_content p-3 grid grid-cols-1 sm:grid-cols-3 sm:gap-6 mb-3">
+                        <article class="mb-5 sm:mb-0">
+                            <div class="post-thumb mb-2">
+                                <a href="#" class="block overflow-hidden"><img class="aspect-video transition-all duration-500" src="assets/img/iseba-five.jpg" alt="post image"></a>
+                            </div>
+                            <div class="category">
+                                <p class="uppercase">business</p>
+                            </div>
+                            <div class="title">
+                                <a href="#"><h2 class="text-xl leading-6 transition-colors hover:text-[#DD3627] mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2></a>
+                            </div>
+                            <div class="post-content">
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic saepe autem aliquid totam distinctio eaque.</p>
+                            </div>
+                        </article>
+                        <article>
+                            <div class="post-thumb mb-2">
+                                <a href="#" class="block overflow-hidden"><img class="aspect-video transition-all duration-500" src="assets/img/iseba-two.jpg" alt="post image"></a>
+                            </div>
+                            <div class="category">
+                                <p class="uppercase">entertainment/p>
+                            </div>
+                            <div class="title">
+                                <a href="#"><h2 class="text-xl leading-6 transition-colors hover:text-[#DD3627] mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2></a>
+                            </div>
+                            <div class="post-content mb-4 sm:mb-0">
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic saepe autem aliquid totam distinctio eaque.</p>
+                            </div>
+                        </article>
+                        <article>
+                            <div class="post-thumb mb-2">
+                                <a href="#" class="block overflow-hidden"><img class="aspect-video transition-all duration-500" src="assets/img/iseba-four.jpg" alt="post image"></a>
+                            </div>
+                            <div class="category">
+                                <p class="uppercase">business</p>
+                            </div>
+                            <div class="title">
+                                <a href="#"><h2 class="text-xl leading-6 transition-colors hover:text-[#DD3627] mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2></a>
+                            </div>
+                            <div class="post-content">
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic saepe autem aliquid totam distinctio eaque.</p>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="readmore-button px-3">
+                        <a href="#" class="isebaButton">read more</a>
+                    </div>
+                </div> <!--// end latest post -->
+                <!-- latest post 2nd -->
+                <div class="latest-post mb-8 border-2 border-gray-300">
+                    <h3 class="title capitalize text-lg font-extrabold bg-[#eee] py-1 pl-1">latest post</h3>
+                    <div class="latest-post_content p-3 grid grid-cols-1 sm:grid-cols-3 sm:gap-6 mb-3">
+                        <article class="mb-5 sm:mb-0">
+                            <div class="post-thumb mb-2">
+                                <a href="#" class="block overflow-hidden"><img class="aspect-video transition-all duration-500" src="assets/img/iseba-two.jpg" alt="post image"></a>
+                            </div>
+                            <div class="category">
+                                <p class="uppercase">business</p>
+                            </div>
+                            <div class="title">
+                                <a href="#"><h2 class="text-xl leading-6 transition-colors hover:text-[#DD3627] mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2></a>
+                            </div>
+                            <div class="post-content">
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic saepe autem aliquid totam distinctio eaque.</p>
+                            </div>
+                        </article>
+                        <article>
+                            <div class="post-thumb mb-2">
+                                <a href="#" class="block overflow-hidden"><img class="aspect-video transition-all duration-500" src="assets/img/iseba-five.jpg" alt="post image"></a>
+                            </div>
+                            <div class="category">
+                                <p class="uppercase">entertainment</p>
+                            </div>
+                            <div class="title">
+                                <a href="#"><h2 class="text-xl leading-6 transition-colors hover:text-[#DD3627] mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2></a>
+                            </div>
+                            <div class="post-content mb-4 sm:mb-0">
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic saepe autem aliquid totam distinctio eaque.</p>
+                            </div>
+                        </article>
+                        <article>
+                            <div class="post-thumb mb-2">
+                                <a href="#" class="block overflow-hidden"><img class="aspect-video transition-all duration-500" src="assets/img/iseba-one.jpg" alt="post image"></a>
+                            </div>
+                            <div class="category">
+                                <p class="uppercase">business</p>
+                            </div>
+                            <div class="title">
+                                <a href="#"><h2 class="text-xl leading-6 transition-colors hover:text-[#DD3627] mb-1">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h2></a>
+                            </div>
+                            <div class="post-content">
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Hic saepe autem aliquid totam distinctio eaque.</p>
+                            </div>
+                        </article>
+                    </div>
+                    <div class="readmore-button px-3">
+                        <a href="#" class="isebaButton">read more</a>
+                    </div>
+                </div> <!--// end latest post -->
+                <!-- comments area -->
+                <div class="comments-area">
+                    <div class="comment-count">
+                        <h5 class="capitalize text-lg">5 comments</h5>
+                    </div>
+                    <hr>
+                    <!-- comment list -->
+                    <div class="comment-list mt-5">
+                        <div class="first-comment grid grid-cols-6 lg:grid-cols-12">
+                            <div class="comment-author">
+                                <img class="w-12 inline-block aspect-square" src="assets/img/iseba-three.jpg" alt="comment person">
+                            </div>
+                            <div class="comment-content col-span-4 lg:col-span-10">
+                                <div class="name capitalize text-[15px] font-semibold">Humaira Sultana</div>
+                                <div class="date capitalize">24 june 2023</div>
+                                <div class="comments">
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis voluptatum architecto sequi ad culpa, sunt quae</p>
+                                </div>
+                                <div class="reply mt-2 transition-colors hover:text-[#DD3627] inline-block">
+                                    <a href="#" class="capitalize underline">reply</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- reply comment -->
+                        <div class="reply-comment grid grid-cols-6 lg:grid-cols-12 ml-14 my-5">
+                            <div class="comment-author">
+                                <img class="w-12 inline-block aspect-square" src="assets/img/iseba-five.jpg" alt="comment person">
+                            </div>
+                            <div class="comment-content col-span-4 lg:col-span-10">
+                                <div class="name capitalize text-[15px] font-semibold">Humaira Sultana</div>
+                                <div class="date capitalize">24 june 2023</div>
+                                <div class="comments">
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis voluptatum architecto sequi ad culpa, sunt quae</p>
+                                </div>
+                            </div>
+                        </div>
+                        <hr>
+                        <!-- second comment -->
+                        <div class="first-comment grid grid-cols-6 lg:grid-cols-12">
+                            <div class="comment-author mt-5">
+                                <img class="w-12 inline-block aspect-square" src="assets/img/iseba-four.jpg" alt="comment person">
+                            </div>
+                            <div class="comment-content mb-8 mt-4 col-span-4 lg:col-span-10">
+                                <div class="name capitalize text-[15px] font-semibold">Humaira Sultana</div>
+                                <div class="date capitalize">24 june 2023</div>
+                                <div class="comments">
+                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis voluptatum architecto sequi ad culpa, sunt quae</p>
+                                </div>
+                                <div class="reply mt-2 transition-colors hover:text-[#DD3627] inline-block">
+                                    <a href="#" class="capitalize underline">reply</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- comments form -->
+                    <div class="comments-form">
+                        <h4 class="title capitalize text-lg">leave a comment</h4>
+                        <hr class="mb-2">
+                        <form action="#">
+                            <input class="mt-3 w-full md:w-[48%] xl:w-[49%] md:mr-3 lg:mr-5 xl:mr-3 outline-none py-[3px] px-3 border-2 border-[#ccc]" type="text" name="name" id="name" placeholder="Name">
+                            <input class="mt-3 w-full md:w-[48%] xl:w-[49%] outline-none py-[3px] px-3 border-2 border-[#ccc]" type="email" name="email" id="email" placeholder="Email">
+                            <textarea class="outline-none py-[3px] px-3 border-2 border-[#ccc] block mt-4 h-[110px] sm:h-[130px] md:h-[160px] lg:h-[200px] w-full resize-none" name="message" id="message" placeholder="Message"></textarea>
+                            <input type="submit" class="mt-4 capitalize bg-[#0b7ad4] text-white px-4 py-2 cursor-pointer transition-colors duration-500 hover:bg-[#DD3627]" value="send message">
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <!-- right widgets -->
+            <div class="body-right lg:col-span-2 mx-4 md:mx-0">
+                <!-- one widget section -->
+                <div class="right_section-one bg-[#EEEEEE] mt-2 border-2 border-[#ccc]">
+                    <div class="section-title">
+                        <h5 class="text-lg capitalize bg-[#333] text-white pl-5 py-2 leading-6">education policy summary</h5>
+                    </div>
+                    <!-- policy summary -->
+                    <div class="policy-details mx-5 md:mx-2 lg:mx-5 my-2">
+                        <p class="capitalize mb-1 text-base"><span class="font-bold text-lg">Insurance Age</span>: 33 Days to 55 Years</p>
+                        <p class="capitalize mb-1 text-base"><span class="font-bold text-lg">Face Amount</span>: BDT 2,00,000/= to 25,00,000/=</p>
+                        <p class="capitalize mb-1 text-base"><span class="font-bold text-lg">Policy Term</span>: 20 to 30 Years</p>
+                        <p class="capitalize text-base"><span class="font-bold text-[17px]">Deatch Benefit</span>: will get face amount with business</p>
+                    </div>
+                    <!-- policy others content -->
+                    <div class="plicy-others mt-16 mx-3 md:mx-1 lg:mx-3 bg-red-200 border-1 border-[#ccc]">
+                        <p class="capitalize border-b-2 border-[#ccc] mx-2 text-base py-2"><span class="font-bold text-lg">Policy Lapse</span>: 31 days from due day</p>
+                        <p class="capitalize border-b-2 border-[#ccc] mx-2 text-base py-2"><span class="font-bold text-lg">Policy surrender</span>: after 2 years</p>
+                        <p class="capitalize mx-2 text-base py-2"><span class="font-bold text-lg">exceptions suicide</span>: war or aids</p>
+                    </div>
+                    <hr class="my-3 mx-3">
+                    <ul class="social pb-2 pl-2">
+                        <li><a href="#"><i class="fa-brands fa-facebook-f p-2 transition-all duration-300 hover:text-[#DD3627]"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-twitter p-2 transition-all duration-300 hover:text-[#DD3627]"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-linkedin-in p-2 transition-all duration-300 hover:text-[#DD3627]"></i></a></li>
+                    </ul>
+                </div>
+                <div class="visit-details text-center my-3 sm:mx-28 md:mx-0 xl:mx-16">
+                    <p class="text-lg">For more about DPS</p>
+                    <ul class="contact-link border-b-2 border-[#333] flex justify-center md:block lg:flex mt-1 lg:justify-center">
+                        <li class="text-lg border-r-2 border-[#333] pr-2"><i class="fa-solid fa-phone text-[13px] px-1"></i>+880 1933885872</li>
+                        <li class="border-r-2 border-[#333] px-3"><a href="#" class="text-lg"><img class="w-7" src="assets/img/messenger.png" alt="messenger image"> </a></li>
+                        <li class="pl-2"><a href="#" class="text-lg"><img class="w-7" src="assets/img/whatsapp.png" alt="whatsapp image"> </a></li>
+                    </ul>   
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- =========================
+        Footer Area
+    ========================== -->
+    <footer class="footer-area mt-5">
+        <div class="container mx-auto grid grid-cols-1 sm:grid-cols-3 gap-1">
+            <div class="footer-one bg-[#EEEEEE] px-3 pt-2 pb-5">
+                <div class="footer-title">
+                    <h4 class="capitalize text-lg mb-1 font-normal">mission</h4>
+                </div>
+                <div class="footer-description">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus vitae, sequi libero molestias corrupti quisquam tempora quod nostrum consequatur nobis id, repellat quis cum magnam? Alias optio fuga qui facilis!</p>
+                </div>
+            </div>
+            <div class="footer-two bg-[#EEEEEE] px-3 pt-2 pb-5">
+                <div class="footer-title">
+                    <h4 class="capitalize text-lg mb-1 font-normal">about</h4>
+                </div>
+                <div class="footer-description">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus vitae, sequi libero molestias corrupti quisquam tempora quod nostrum consequatur nobis id, repellat quis cum magnam? Alias optio fuga qui facilis!</p>
+                </div>
+            </div>
+            <div class="footer-three bg-[#EEEEEE] px-3 pt-2 pb-5">
+                <div class="footer-title">
+                    <h4 class="capitalize text-lg mb-1 font-normal">contact us</h4>
+                </div>
+                <div class="footer-address">
+                    <p class="mb-1">91, kazi nazrul islam avenue, dhaka 1215, bangladesh</p>
+                    <p class="mb-1"><i class="fa-solid fa-phone mr-1"></i> +8801819437714</p>
+                    <p class="mb-1"><i class="fa-regular fa-envelope mr-1"></i> insurance.seba@gmail.com</p>
+                    <ul class="footer-social-link">
+                        <li class="mr-1"><a href="http://facebook.com/habibcoder1"><i class="fa-brands fa-facebook-f"></i></a></li>
+                        <li class="mr-1"><a href="http://twitter.com/habibcoder"><i class="fa-brands fa-twitter text-sm px-1"></i></a></li>
+                        <li><a href="http://linkedin.com/in/habibcoder"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="container mx-auto bg-[#333]">
+            <div class="copyright-section">
+                <p class="text-white text-center p-1">&copy; 2023 Insurance Seba. All Right Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- all scripts -->
+    <script src="assets/js/jquery-3.7.0.min.js"></script>
+    <script src="assets/js/custom.js"></script>
+    <script>
+        // preloader //
+        let loader = document.querySelector('.preloader');
+        window.addEventListener('load', function(){
+            loader.style.display = 'none';
+        });
+    </script>
+</body>
+</html>

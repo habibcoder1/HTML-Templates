@@ -1,0 +1,26 @@
+// responsive design
+@media only screen and (min-width: 640px) and (max-width: 1280px){
+    .body-section .body-right .right_section-three .wdget-form form button{
+        padding: 4px 22px;
+        margin: 5px auto;
+    }
+    .body-section .body-right .right_section-three ul.social-link li{
+        margin: 0;
+    }
+}
+@media only screen and (min-width: 640px) and (max-width: 768px){
+    
+}
+@media only screen and (max-width: 640px){
+    .container{
+        width: 98%;
+    }
+}
+@media only screen and (max-width: 480px){
+    .body-section .body-main_content .body-regular_message article{
+        display: block;
+    }
+    .body-section .body-main_content .post-details ul.social-link{
+        text-align: center;
+    }
+}

@@ -1,0 +1,44 @@
+// Contact Page Style
+.contact-area{
+    .container{
+        position: relative;
+        &::before {
+            content: '';
+            display: block;
+            clear: both;
+            position: absolute;
+            top: 0;
+            left: 0; 
+            border-width: 20px;
+            border-style: solid;
+            border-color: $atsbdBgColor;
+            border-bottom-color: $atsbdSecondaryColor;
+            border-right-color: $atsbdSecondaryColor;
+        } 
+        .contact-content{
+            .contact-social{
+                ul.social-icons{
+                    li{
+                        margin: 0 3px;
+                        a{
+                            i{
+                                font-size: 25px;
+                                background: $atsbdSecondaryColor;
+                                padding: 8px;
+                                border-radius: 10px;
+                                transition: .4s ease all;
+                                -webkit-transition: .4s ease all;
+                                -moz-transition: .4s ease all;
+                                -ms-transition: .4s ease all;
+                                -o-transition: .4s ease all;
+                                &:hover{
+                                    background-color: $atsbdPrimaryColor;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,62 @@
+// Responsive Design like Tailwindcss Breakpoint
+
+// Desktop Width
+@media only screen and (min-width: 1280px) and (max-width: 1536px){
+    
+}
+
+// Laptop Width
+@media only screen and (min-width: 1024px) and (max-width: 1279.99px){
+    
+}
+
+// Tablet Width
+@media only screen and (min-width: 768px) and (max-width: 1023.99px){
+    .hero-area .category-area ul.category-list li a i{margin-right: 5px;}
+    .hero-area .slider-area .slider-items .single-slider{background-position: 100% 100%;}
+    .hero-area .slider-area .slider-items .single-slider:nth-child(3){
+        background-position: 18% 100%;
+    }
+    .atsbd-woocommerce-products ul li .product-details .product-title a h3{font-size: 16px;}
+
+}
+
+// Wide Mobile Width
+@media only screen and (min-width: 640px) and (max-width: 767.99px){
+    .atsbd-woocommerce-products ul li .product-details .product-title a h3{font-size: 15px;}
+
+}
+
+// Mobile Width
+@media only screen and (max-width: 639.99px){
+    .container{width: 92%;}
+    .hero-area .slider-items ul.slick-dots{display: none !important; }
+    .atsbd-woocommerce-products ul li .product-details .product-title a h3{font-size: 15px;}
+
+}
+
+// For minimum 640px
+@media (min-width:640px){
+    // sticky menu
+    .sticky-header.sticky-menu-show{
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        box-shadow: 0 2px 5px 0 $atsbdGrayColor;
+        z-index: 10;
+    }
+
+}
+
+// For maximum 400px
+@media (max-width:500px){
+    // subscribe form
+    .subscribe-area .subscribe-form input#subemail{width: 155px;}
+    .atsbd-woocommerce-products .products-sort-view{display: inherit;}
+    .atsbd-woocommerce-products .products-sort-view .product-sorting{text-align: center; margin-bottom: 15px;}
+    .atsbd-woocommerce-products .products-sort-view .shop-view{display: none;}
+    .contact-area .contact-map .map iframe{height: 180px}
+    .contact-area .contact-form form textarea{height: 100px}
+}

@@ -1,0 +1,9 @@
+/* Tailwindcss */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.atsbdBtn{
+    @apply capitalize px-4 py-2 bg-yellow font-poppins font-semibold transition-all hover:bg-[#333] hover:text-white rounded-sm;
+}

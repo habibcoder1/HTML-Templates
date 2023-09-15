@@ -1,0 +1,1265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- meta tag -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!-- site title -->
+    <title>Product Page | AllThe Shop BD</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="assets/img/favicon.png" type="image/x-icon">
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- All Stylesheet -->
+    <link rel="stylesheet" href="assets/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/fontawesome.min.css">
+    <link rel="stylesheet" href="assets/css/slick.min.css">
+    <link rel="stylesheet" href="assets/css/tailwind-main.css">
+    <link rel="stylesheet" href="assets/css/tailwind.min.css">
+    <link rel="stylesheet" href="assets/css/custom.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark:bg-black">
+    <!-- Preloader -->
+    <div class="atsbd-preloader">
+        <div class="preloader-items">
+            <span>All</span>
+            <span>The</span>
+            <span>Shop</span>
+            <span>BD</span>
+        </div>
+    </div>
+    <!-- =======================
+        Header Area Start
+    ======================== -->
+    <header class="header-area">
+        <!-- sticy header -->
+        <div class="sticky-header middle-header hidden bg-white py-3 sm:py-4 lg:py-2 dark:bg-black dark:text-white">
+            <div class="container gap-6 sm:gap-0 flex justify-between items-center">
+                <!-- main logo -->
+                <div class="main-logo">
+                    <a href="index.html" class="w-40 sm:w-32 md:w-36 lg:w-56"><img src="assets/img/main-logo.png" alt="main-logo"></a>
+                </div>
+                <!-- search form -->
+                <div class="search-form hidden sm:block">
+                    <form action="#">
+                        <select name="p-category" class="cursor-pointer dark:bg-black dark:text-white" id="search-category">
+                            <option value="all">All</option>
+                            <option value="one">Category One</option>
+                            <option value="two">Category Two</option>
+                            <option value="three">Category Three</option>
+                            <option value="four">Category Four</option>
+                            <option value="five">Category Five</option>
+                        </select>
+                        <input type="text" class="sm:w-36 md:w-52 lg:w-80 rounded-none -mx-1 dark:text-black" name="s" placeholder="I'm shopping for..." id="search">
+                        <input type="submit" class="bg-[#FCB800]" value="Search">
+                    </form>
+                </div>
+                <!-- ecommerce icons -->
+                <ul class="ecommerce-icons flex gap-6 md:gap-5 lg:gap-9 items-center">
+                    <li class="whishlist-icon">
+                        <a href="wishlist.html">
+                            <i class="fa-regular fa-heart cursor-pointer text-2xl sm:text-3xl dark:text-white"></i>
+                            <span class=" bg-[#FCB800]">0</span>
+                        </a>
+                    </li>
+                    <li class="cart-icon">
+                        <a href="cart.html">
+                            <i class="fa-solid fa-cart-plus cursor-pointer text-2xl sm:text-3xl dark:text-white"></i>
+                            <span class=" bg-[#FCB800]">0</span>
+                        </a>
+                    </li>
+                    <li class="login-register flex">
+                        <i class="fa-regular fa-user text-2xl sm:text-3xl"></i>
+                        <div class="login-register-icons hidden md:block ml-3 -mt-1">
+                            <a href="login-register.html" class="capitalize login font-semibold transition-all hover:text-yellow block mb-[-2px] dark:text-white"> login</a>
+                            <a href="login-register.html" class="capitalize register transition-all hover:text-yellow font-semibold dark:text-white">Register</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- top header -->
+        <div class="top-header bg-black text-white py-2 hidden sm:block">
+            <div class="container flex justify-between items-center">
+                <!-- left content -->
+                <div class="left-content">
+                    <p class="text-sm">You are Welcome to AllThe Shop BD. Any Query +880 1877972176</p>
+                </div>
+                <!-- right content -->
+                <div class="right-content">
+                    <ul class="social-icons">
+                        <li class="light_dark_mode"><a href="#" title="Light/Dark Mode"><i class="fa-solid fa-moon text-white hover:text-yellow"></i></a></li>
+                        <li><a href="https://facebook.com/habibcoder1" title="Facebook" target="_blank"><i class="fa-brands fa-facebook text-white hover:text-[#5384ec]"></i></a></li>
+                        <li><a href="https://twitter.com/habibcoder" title="Twitter" target="_blank"><i class="fa-brands fa-square-twitter text-white hover:text-[#1DA1F2]"></i></a></li>
+                        <li><a href="https://linkedin.com/in/habibcoder" title="LinkedIn" target="_blank"><i class="fa-brands fa-linkedin text-white hover:text-[#0e76a8]"></i></a></li>
+                        <li><a href="https://instagram.com/habibcoder" title="Instagram" target="_blank"><i class="fa-brands fa-square-instagram text-white hover:text-[#fbad50]"></i></a></li>
+                        <li><a href="https://api.whatsapp.com/send?phone=01877972176" title="WhatsApp" target="_blank"><i class="fa-brands fa-square-whatsapp text-white hover:text-[#4AC459]"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <!-- middle header -->
+        <div class="middle-header bg-white py-3 sm:py-4 lg:py-2 dark:bg-black dark:text-white">
+            <div class="container gap-6 sm:gap-0 flex justify-between items-center">
+                <!-- main logo -->
+                <div class="main-logo">
+                    <a href="index.html" class="w-40 sm:w-32 md:w-36 lg:w-56"><img src="assets/img/main-logo.png" alt="main-logo"></a>
+                </div>
+                <!-- search form -->
+                <div class="search-form hidden sm:block">
+                    <form action="#">
+                        <select name="p-category" class="cursor-pointer dark:bg-black dark:text-white" id="search-category">
+                            <option value="all">All</option>
+                            <option value="one">Category One</option>
+                            <option value="two">Category Two</option>
+                            <option value="three">Category Three</option>
+                            <option value="four">Category Four</option>
+                            <option value="five">Category Five</option>
+                        </select>
+                        <input type="text" class="sm:w-36 md:w-52 lg:w-80 rounded-none -mx-1 dark:text-black" name="s" placeholder="I'm shopping for..." id="search">
+                        <input type="submit" class="bg-[#FCB800]" value="Search">
+                    </form>
+                </div>
+                <!-- ecommerce icons -->
+                <ul class="ecommerce-icons flex gap-6 md:gap-5 lg:gap-9 items-center">
+                    <li class="whishlist-icon">
+                        <a href="wishlist.html">
+                            <i class="fa-regular fa-heart cursor-pointer text-2xl sm:text-3xl dark:text-white"></i>
+                            <span class=" bg-[#FCB800]">0</span>
+                        </a>
+                    </li>
+                    <li class="cart-icon">
+                        <a href="cart.html">
+                            <i class="fa-solid fa-cart-plus cursor-pointer text-2xl sm:text-3xl dark:text-white"></i>
+                            <span class=" bg-[#FCB800]">0</span>
+                        </a>
+                    </li>
+                    <li class="login-register flex">
+                        <i class="fa-regular fa-user text-2xl sm:text-3xl"></i>
+                        <div class="login-register-icons hidden md:block ml-3 -mt-1">
+                            <a href="login-register.html" class="capitalize login font-semibold transition-all hover:text-yellow block mb-[-2px] dark:text-white"> login</a>
+                            <a href="login-register.html" class="capitalize register transition-all hover:text-yellow font-semibold dark:text-white">Register</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- main header -->
+        <div class="main-header bg-yellow py-2">
+            <div class="container flex items-center justify-between sm:justify-center md:justify-between">
+                <!-- mobile menu bar -->
+                <div class="mobile-menubar sm:hidden cursor-pointer">
+                    <span><i class="fa-solid fa-bars text-xl p-1"></i></span>
+                </div>
+                <!-- mobile menu -->
+                <nav class="mobile-menu  hidden relative sm:!hidden">
+                    <div class="close-icon text-end">
+                        <i title="Close Menu" class="fa-solid fa-xmark text-xl cursor-pointer p-1 pr-[6px] rounded-full border-white border-solid border-2 leading-5 w-8 h-8"></i>
+                    </div>
+                    <ul>
+                        <li><a href="index.html" class="uppercase font-semibold">home</a></li>
+                        <li><a href="shop.html" class="uppercase font-semibold">shop</a></li>
+                        <li class="menu-item-has-children">
+                            <a href="best-seller.html" class="uppercase font-semibold">best seller</a>
+                            <ul class="sub-menu">
+                                <li><a href="blog.html" class="uppercase font-semibold">blog page</a></li>
+                                <li class="current-menu-item"><a href="single.html" class="uppercase font-semibold">single page</a></li>
+                                <li class="menu-item-has-children">
+                                    <a href="#" class="uppercase font-semibold">sub menu</a>
+                                    <ul class="sub-menu">
+                                        <li><a href="#" class="uppercase font-semibold">sub menu</a></li>
+                                        <li><a href="#" class="uppercase font-semibold">sub menu</a></li>
+                                        <li><a href="#" class="uppercase font-semibold">sub menu</a></li>
+                                        <li><a href="#" class="uppercase font-semibold">sub menu</a></li>
+                                        <li><a href="#" class="uppercase font-semibold">sub menu</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="login-register.html" class="uppercase font-semibold">login register</a></li>
+                                <li><a href="wishlist.html" class="uppercase font-semibold">wishlist</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="cart.html" class="uppercase font-semibold">cart</a></li>
+                        <li><a href="checkout.html" class="uppercase font-semibold">checkout</a></li>
+                        <li><a href="contact.html" class="uppercase font-semibold">contact</a></li>
+                    </ul>
+                    <!-- mobile menu footer -->
+                    <div class="side-menu-footer mt-4 absolute bottom-16 left-5">
+                        <div class="sidemenu-contact mb-1">
+                            <p class="font-medium">For Query:) +880 1877972176</p>
+                        </div>
+                        <div class="mobile-socials">
+                            <ul class="social-icons">
+                                <li><a href="https://facebook.com/habibcoder1" title="Facebook" target="_blank"><i class="fa-brands fa-facebook text-white hover:text-blue-300"></i></a></li>
+                                <li><a href="https://twitter.com/habibcoder" title="Twitter" target="_blank"><i class="fa-brands fa-square-twitter text-white hover:text-blue-400"></i></a></li>
+                                <li><a href="https://linkedin.com/in/habibcoder" title="LinkedIn" target="_blank"><i class="fa-brands fa-linkedin text-white hover:text-blue-500"></i></a></li>
+                                <li><a href="https://instagram.com/habibcoder" title="Instagram" target="_blank"><i class="fa-brands fa-square-instagram text-white hover:text-red-400"></i></a></li>
+                                <li><a href="https://api.whatsapp.com/send?phone=01877972176" title="WhatsApp" target="_blank"><i class="fa-brands fa-square-whatsapp text-white hover:text-green-400"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="developed-by text-center">
+                            <a href="https://habibcoder.com" class="underline hover:no-underline" target="_blank">HabibCoder</a>
+                        </div>
+                    </div>
+                </nav>
+                <!-- categories -->
+                <div class="left-side btn-category-show hidden md:inline-flex items-center gap-2 cursor-pointer">
+                    <div class="category-icon">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+                    <p class="font-semibold text-base capitalize">Shop By Categories</p>
+                </div>
+                <div class="right-side">
+                    <!-- mobile search form -->
+                    <div class="search-form mobile-search-form sm:hidden">
+                        <form action="#">
+                            <input type="text" class="-mx-1" name="s" placeholder="I'm shopping for..." id="search">
+                            <button type="submit"><i class="fa-solid fa-magnifying-glass"></i></button>
+                        </form>
+                    </div>
+                    <!-- main menu -->
+                    <nav class="main-menu hidden sm:block">
+                        <ul>
+                            <li><a href="index.html" class="uppercase font-semibold">home</a></li>
+                            <li><a href="shop.html" class="uppercase font-semibold">shop</a></li>
+                            <li class="menu-item-has-children">
+                                <a href="best-seller.html" class="uppercase font-semibold">best seller</a>
+                                <ul class="sub-menu">
+                                    <li><a href="blog.html" class="uppercase font-semibold">blog page</a></li>
+                                    <li class="current-menu-item"><a href="single.html" class="uppercase font-semibold">single page</a></li>
+                                    <li class="menu-item-has-children">
+                                        <a href="#" class="uppercase font-semibold">sub menu</a>
+                                        <ul class="sub-menu">
+                                            <li><a href="#" class="uppercase font-semibold">sub menu</a></li>
+                                            <li><a href="#" class="uppercase font-semibold">sub menu</a></li>
+                                            <li><a href="#" class="uppercase font-semibold">sub menu</a></li>
+                                            <li><a href="#" class="uppercase font-semibold">sub menu</a></li>
+                                            <li><a href="#" class="uppercase font-semibold">sub menu</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="login-register.html" class="uppercase font-semibold">login register</a></li>
+                                    <li><a href="wishlist.html" class="uppercase font-semibold">wishlist</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="cart.html" class="uppercase font-semibold">cart</a></li>
+                            <li><a href="checkout.html" class="uppercase font-semibold">checkout</a></li>
+                            <li><a href="contact.html" class="uppercase font-semibold">contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <!-- footer sticky menu -->
+        <div class="footer-sticky-menu middle-header sm:hidden bg-white py-1 fixed bottom-0 left-0 w-full z-10 dark:bg-black dark:text-white">
+            <div class="container">
+                <!-- search form -->
+                <div class="search-form p-2 border-b-2 text-center hidden border-gray">
+                    <form action="#">
+                        <input type="text" class="rounded-none -mx-1" name="s" placeholder="I'm shopping for..." id="search">
+                        <input type="submit" class="bg-[#FCB800]" value="Search">
+                    </form>
+                </div>
+                <!-- ecommerce icons -->
+                <ul class="ecommerce-icons flex gap-6 items-center justify-center">
+                    <li class="search-icon text-center">
+                        <i class="fa-solid fa-magnifying-glass cursor-pointer text-xl"></i>
+                        <p class="capitalize font-medium text-[13px]">search</p>
+                    </li>
+                    <li class="whishlist-icon text-center">
+                        <a href="wishlist.html" class="dark:text-white">
+                            <i class="fa-regular fa-heart cursor-pointer text-2xl"></i>
+                            <span class=" bg-[#FCB800] !bottom-5 !right-2">0</span>
+                            <p class="capitalize font-medium text-[13px]">wishlist</p>
+                        </a>
+                    </li>
+                    <li class="cart-icon">
+                        <a href="cart.html" class="dark:text-white">
+                            <i class="fa-solid fa-cart-plus cursor-pointer text-2xl"></i>
+                            <span class=" bg-[#FCB800] !bottom-5 !-right-2">0</span>
+                            <p class="capitalize font-medium text-[13px]">cart</p>
+                        </a>
+                    </li>
+                    <li class="login-register text-center">
+                        <a href="login-register.html" class="dark:text-white">
+                            <i class="fa-regular fa-user text-2xl"></i>
+                            <p class="capitalize font-medium text-[13px]">my account</p>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!-- categories list without home page -->
+        <div class="category-area category-without-homepage hidden md:block">
+            <div class="container">
+                <ul class="category-list bg-white p-2 mt-4 dark:bg-black dark:text-white">
+                    <li><a href="#" class="dark:text-white"><i class="fa-solid fa-user-tie"></i> Men's collection</a></li>
+                    <li><a href="#" class="dark:text-white"><i class="fa-solid fa-vest"></i> Latest Collection</a></li>
+                    <li><a href="#" class="dark:text-white"><i class="fa-solid fa-shirt"></i>  Women collection</a></li>
+                    <li><a href="#" class="dark:text-white"><i class="fa-solid fa-vest"></i> Latest Collection</a></li>
+                    <li><a href="#" class="dark:text-white"><i class="fa-solid fa-glasses"></i> T-Shirt Collection</a></li>
+                    <li><a href="#" class="dark:text-white"><i class="fa-solid fa-vest"></i> Latest Collection</a></li>
+                    <li><a href="#" class="dark:text-white"><i class="fa-solid fa-shirt"></i> Latest Pant</a></li>
+                    <li><a href="#" class="dark:text-white"><i class="fa-solid fa-vest"></i> Best Selling Products</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <!-- =======================
+        Header Area End
+    ======================== -->
+    <!-- =======================
+        Product Area Start
+    ======================== -->
+    <section class="product-area single-product product-page my-5">
+        <div class="container bg-white p-4 pt-10 pb-6 dark:bg-black">
+            <!-- product details -->
+            <div class="atsbd-product-details">
+                <!-- product header -->
+                <div class="atsbd-entry-product-header mb-4 pb-2 border-b-2 border-light-gray lg:flex items-start justify-between gap-2">
+                    <!-- title, sku -->
+                    <div class="product-title-sku dark:text-white">
+                        <h2 class="product-title text-3xl font-medium">Satin Salwar | Ladies pant | Gorgeous Salwar</h2>
+                        <ul class="sku">
+                            <li class="meta-sku opacity-90 uppercase ">
+                                sku: <span>atscotton75</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- share social -->
+                    <div class="social-share my-2 lg:my-0">
+                        <ul class="share-links">
+                            <li><a href="#" title="Share on Facebook" target="_blank"><i class="fa-brands fa-facebook text-white bg-[#4064AC] p-1 text-[22px] rounded-sm transition-all hover:bg-yellow"></i></a></li>
+                            <li><a href="#" title="Share on LinkedIn" target="_blank"><i class="fa-brands fa-linkedin text-white bg-[#0e76a8] p-1 text-[22px] rounded-sm transition-all hover:bg-yellow"></i></a></li>
+                            <li><a href="#" title="Share on Instagram" target="_blank"><i class="fa-brands fa-square-instagram text-white bg-[#EB4B58] p-1 text-[22px] rounded-sm transition-all hover:bg-yellow"></i></a></li>
+                            <li><a href="#" title="Share on WhatsApp" target="_blank"><i class="fa-brands fa-square-whatsapp text-white bg-[#4AC459] p-1 text-[22px] rounded-sm transition-all hover:bg-yellow"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+                <!-- product gallery, details -->
+                <div class="atsbd-prdouct-gallery woo-product-gallery-details woo-product-details md:grid grid-cols-2 gap-5">
+                    <!-- gallery, image -->
+                    <div class="left-side product-image-gallery">
+                        <!-- image -->
+                        <div class="product-image relative dark:text-white">
+                            <a href="#" class="product-thumb"><img src="assets/img/product2.jpg" data-zoom-image="assets/img/product2.jpg" alt="single product"></a>
+                            <span class="zoom-text text-sm block text-center capitalize opacity-90">roll over image to zoom in</span>
+                            <span class="open-text text-sm block text-center capitalize opacity-90">click to oepn expanded view</span>
+                            <span class="onsale-discount atsbdBtn !px-2 !py-1 absolute top-0 right-0">-10%</span>
+                        </div>
+                        <!-- gallery -->
+                        <div class="product-gallery my-3 border-b-2 border-light-gray md:border-none pb-4">
+                            <ul class="gallery-images flex items-center justify-center gap-2">
+                                <li><a href="#"><img src="assets/img/product1.jpg" alt="gallery image"></a></li>
+                                <li><a href="#"><img src="assets/img/product1.jpg" alt="gallery image"></a></li>
+                                <li><a href="#"><img src="assets/img/product1.jpg" alt="gallery image"></a></li>
+                                <li><a href="#"><img src="assets/img/product1.jpg" alt="gallery image"></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- product details -->
+                    <div class="right-side product-details mt-4 md:mt-0 dark:text-white">
+                        <!-- price -->
+                        <div class="price border-b-2 border-light-gray pb-3">
+                            <span class="discount-price amount font-semibold text-lg">$500.00</span>
+                            <span class="separator mx-1">-</span>
+                            <span class="sale-price amount opacity-90 line-through">$700.00</span>
+                            <span class="sale text-yellow ml-1">(-10%)</span>
+                        </div>
+                        <!-- product title, short description -->
+                        <div class="product-short-description woo-product-short-description border-b-2 pb-2 border-light-gray">
+                            <div class="product-title mt-3 mb-2">
+                                <h2 class="font-semibold leading-10">Satin Salwar | Ladies pant | Gorgeous Salwar</h2>
+                            </div>
+                            <!-- rating -->
+                            <div class="woo-product-rating border-b-2 border-light-gray mb-4 py-2">
+                                <ul class="product-rating">
+                                    <li><span><i class="fa-solid fa-star"></i></span></li>
+                                    <li><span><i class="fa-solid fa-star"></i></span></li>
+                                    <li><span><i class="fa-solid fa-star"></i></span></li>
+                                    <li><span><i class="fa-solid fa-star"></i></span></li>
+                                    <li><span><i class="fa-regular fa-star"></i></span></li>
+                                    <li class="customer-rating-text"><p>(1 customer review)</p></li>
+                                </ul>
+                            </div>
+                            <p>All sizes are available for your favorite pant.
+                            </p>
+                            <b>You will get the Same Design and Same Color
+                                Waist Size is free size. Just give us your Long Size in Order Notes option.</b>
+                            <p>Our Products are the Latest, Exclusive and Qualityful.
+                                We use Hight Quality Fabrics for making the Cotton Salwar, Ladies Pants.</p>
+                            <p>For customize the product. Call+WhatsApp:) <b>01877972176</b></p>
+                        </div>
+                        <!-- product form -->
+                        <div class="product-form-table my-4 border-b-2 border-light-gray pb-5">
+                            <form action="#" method="post" class="product-form cart">
+                                <table class="variations product-variation">
+                                    <tbody>
+                                        <tr>
+                                            <td class="block"><label for="pa_fabrics" class="capitalize">fabrics:</label></td>
+                                            <td class="block">
+                                                <div class="variation_swatcher wcboost-variation-swatches">
+                                                    <ul class="variation-list wcboost-variation-swatches__wrapper my-2">
+                                                        <li class="variation-item">
+                                                            <span class="variation-swatches-name capitalize">china lilen</span>
+                                                        </li>
+                                                        <li class="variation-item selected">
+                                                            <span class="variation-swatches-name capitalize">cotton</span>
+                                                        </li>
+                                                        <li class="variation-item">
+                                                            <span class="variation-swatches-name capitalize">satin</span>
+                                                        </li>
+                                                    </ul>
+                                                    <a href="#" class="capitalize reset_variation underline text-sm text-yellow transition-all hover:text-black">clear</a>
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <div class="single-variation-wrap">
+                                    <div class="woo-variation-price single-variation my-2">
+                                        <span class="price">
+                                            <ins class="text-xl font-semibold mr-1"><bdi>$ 500</bdi></ins>
+                                            <del class="text-sm opacity-90">$ 750</del>
+                                        </span>
+                                    </div>
+                                    <div class="variation-button woo-variation-add-to-cart mt-2">
+                                        <div class="quantity inline-block">
+                                            <label for="quantity" class="capitalize text-sm block">quantity</label>
+                                            <div class="qty-box border-2 px-4 py-1 border-light-gray inline-block">
+                                                <span class="decrease text-xl cursor-pointer">-</span>
+                                                <input type="number" name="quantity" id="quantity" value="1" class="shadow-none w-20 text-center dark:text-black">
+                                                <span class="incrase text-xl cursor-pointer">+</span>
+                                            </div>
+                                        </div>
+                                        <button type="submit" class="single-add-to-cart add-to-cart-btn capitalize atsbdBtn mx-2 !py-[10px] !px-6">add to cart</button>
+                                        <button type="submit" class="buy-now buy-now-btn capitalize atsbdBtn !py-[10px] !px-6">buy now</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <!-- product meta -->
+                        <div class="product-meta">
+                            <div class="category capitalize">
+                                <b class="mr-1">category:</b>
+                                <a href="#" class="category-item dark:text-white">category one,</a>
+                                <a href="#" class="category-item dark:text-white">category two</a>
+                            </div>
+                            <div class="tags">
+                                <b class="capitalize mr-1">tags:</b>
+                                <a href="#" class="tag-item dark:text-white">tag one,</a>
+                                <a href="#" class="tag-item dark:text-white">tag two,</a>
+                                <a href="#" class="tag-item dark:text-white">tag three,</a>
+                                <a href="#" class="tag-item dark:text-white">tag four</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- product summary -->
+                <div class="atsbd-product-summary my-4 border-t-2 border-light-gray pt-5 dark:text-white">
+                    <div class="woo-summary-tabs atsbd-woo-summary-tab dark:text-white">
+                        <!-- tab -->
+                        <ul class="tabs woo-tabs mb-">
+                            <li class="woo-summary-tab-item ui-tabs-active"><a href="#tab-description" class="dark:text-white">description</a></li>
+                            <li class="woo-summary-tab-item"><a href="#tab-addition_information" class="dark:text-white">specification</a></li>
+                            <li class="woo-summary-tab-item"><a href="#tab-reviews" class="dark:text-white">reviews (0)</a></li>
+                        </ul>
+                        <!-- tab description -->
+                        <div class="woo-tab-panel woo-tab-panel-description" id="tab-description">
+                            <h3>Satin Salwar | Ladies pant | Gorgeous Salwar</h3>
+                            <p>
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit sed odio odit doloremque eveniet! Cum eligendi nam repellendus earum eos.
+                            </p>
+                            <blockquote><p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Incidunt ex rerum earum impedit dolorum deserunt accusantium obcaecati, non distinctio expedita?</p></blockquote>
+                            <p>
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit sed odio odit doloremque eveniet! Cum eligendi nam repellendus earum eos.
+                            </p>
+                            <p>
+                                <b> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit sed odio odit doloremque eveniet! Cum eligendi nam repellendus earum eos.</b>
+                            </p>
+                            <p>
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Impedit sed odio odit doloremque eveniet! Cum eligendi nam repellendus earum eos.
+                            </p>
+                            <p>Facebook Page:) <a href="#">AllThe Shop BD</a> </p>
+                            <p>Delivery Time:) <br>
+                                ——————— <br>
+                                Inside Dhaka = 24 to 48 Hours <br>
+                                Outside Dhaka (all Bangladesh) = 48 to 72 Hours <br>
+                                Note: Without Friday.
+                            </p>
+                        </div>
+                        <!-- tab additional information -->
+                        <div class="woo-tab-panel woo-tab-panel-additional_info pt-2" id="tab-addition_information">
+                            <table class="woo-product-atrributes shop-attributes">
+                                <tbody>
+                                    <tr class="woo-product-atrributes-item">
+                                        <th class="woo-product-atrributes-item_label dark:text-black">sizes</th>
+                                        <td class="woo-product-atrributes-item_value">
+                                            <p>Lorem ipsum dolor sit amet.</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="woo-product-atrributes-item">
+                                        <th class="woo-product-atrributes-item_label dark:text-black">gender</th>
+                                        <td class="woo-product-atrributes-item_value">
+                                            <p>women</p>
+                                        </td>
+                                    </tr>
+                                    <tr class="woo-product-atrributes-item">
+                                        <th class="woo-product-atrributes-item_label dark:text-black">fabrics</th>
+                                        <td class="woo-product-atrributes-item_value">
+                                            <p>Cotton, Satin, China Lilen</p>
+                                        </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <!-- tab reviews -->
+                        <div class="woo-tab-panel woo-tab-panel-reviews pt-2" id="tab-reviews">
+                            <div id="reviews" class="woo-reviews md:flex items-start justify-between gap-4">
+                                <!-- average form -->
+                                <div class="average-rating basis-1/2">
+                                    <h6 class="average-label capitalize">average review</h6>
+                                    <h3 class="average-value capitalize">5.0</h3>
+                                    <div class="woo-product-rating mb-4">
+                                        <ul class="product-rating">
+                                            <li><span><i class="fa-solid fa-star"></i></span></li>
+                                            <li><span><i class="fa-solid fa-star"></i></span></li>
+                                            <li><span><i class="fa-solid fa-star"></i></span></li>
+                                            <li><span><i class="fa-solid fa-star"></i></span></li>
+                                            <li><span><i class="fa-regular fa-star"></i></span></li>
+                                            <li class="customer-rating-text"><p>1 customer review</p></li>
+                                        </ul>
+                                    </div>
+                                    <!-- bar rating -->
+                                    <div class="bar-rating woo-rating-bar">
+                                        <div class="star-item 5-stars">
+                                            <div class="bar-label inline-block">5 star</div>
+                                            <div class="bar-content inline-block mx-3">
+                                                <span style="width: 100%;"></span>
+                                            </div>
+                                            <div class="bar-value inline-block">100%</div>
+                                        </div>
+                                        <div class="star-item 5-stars">
+                                            <div class="bar-label inline-block">4 star</div>
+                                            <div class="bar-content inline-block mx-3">
+                                                <span style="width: 0%;"></span>
+                                            </div>
+                                            <div class="bar-value inline-block">0%</div>
+                                        </div>
+                                        <div class="star-item 5-stars">
+                                            <div class="bar-label inline-block">3 star</div>
+                                            <div class="bar-content inline-block mx-3">
+                                                <span style="width: 0%;"></span>
+                                            </div>
+                                            <div class="bar-value inline-block">0%</div>
+                                        </div>
+                                        <div class="star-item 5-stars">
+                                            <div class="bar-label inline-block">2 star</div>
+                                            <div class="bar-content inline-block mx-3">
+                                                <span style="width: 0%;"></span>
+                                            </div>
+                                            <div class="bar-value inline-block">0%</div>
+                                        </div>
+                                        <div class="star-item 5-stars">
+                                            <div class="bar-label inline-block">1 star</div>
+                                            <div class="bar-content inline-block mx-3">
+                                                <span style="width: 0%;"></span>
+                                            </div>
+                                            <div class="bar-value inline-block">0%</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- review form if have a review -->
+                                <div class="review-form basis-1/2">
+                                    <!-- form -->
+                                    <div id="respond" class="review-respond comment-respond">
+                                        <h6 class="reply-title uppercase font-semibold text-sm">add a review</h6>
+                                        <!-- comment form -->
+                                        <form action="#" method="POST">
+                                            <p class="review-notes my-2">
+                                                <span class="email-notes">Your email address will not be published.</span>
+                                                <span class="required-field-message">required fields are marked</span>
+                                                <span class="required">*</span>
+                                            </p>
+                                            <div class="comment-form-rating">
+                                                <label for="rating">Your rating of this product</label>
+                                                <ul class="stars product-rating inline-block ml-2">
+                                                    <li><span><i class="fa-regular fa-star"></i></span></li>
+                                                    <li><span><i class="fa-regular fa-star"></i></span></li>
+                                                    <li><span><i class="fa-regular fa-star"></i></span></li>
+                                                    <li><span><i class="fa-regular fa-star"></i></span></li>
+                                                    <li><span><i class="fa-regular fa-star"></i></span></li>
+                                                </ul>
+                                            </div>
+                                            <p class="comment-form-comment mt-4">
+                                                <textarea class="w-full h-32 dark:text-black" name="comment" id="comment" placeholder="Write your review here..." required></textarea>
+                                            </p>
+                                            <div class="comment-author-email md:flex items-center gap-3 mt-4">
+                                                <p class="comment-form-author w-full mb-5 md:mb-0">
+                                                    <input class="w-full dark:text-black" type="text" name="author" id="author" placeholder="Name *">
+                                                </p>
+                                                <p class="comment-form-email w-full">
+                                                    <input class="w-full dark:text-black" type="text" name="email" id="email" placeholder="Email *">
+                                                </p>
+                                            </div>
+                                            <p class="comment-cookies my-3 flex items-center gap-2">
+                                                <input class="cursor-pointer" type="checkbox" name="cookies" id="cookies">
+                                                <label class="cursor-pointer" for="cookies">Save my name, email, and website in this browser for the next time I comment.</label>
+                                            </p>
+                                            <input type="submit" value="Submit" class="atsbdBtn">
+                                        </form>
+                                    </div>
+                                </div>
+                                <!-- review form without a review -->
+                                <div class="review-form-without-review basis-full hidden">
+                                    <!-- form -->
+                                    <div id="respond" class="review-respond comment-respond ">
+                                        <h6 class="reply-title uppercase font-semibold text-sm">be the first to review "Satin Salwar | Ladies pant | Gorgeous Salwar"</h6>
+                                        <!-- comment form -->
+                                        <form action="#" method="POST">
+                                            <p class="review-notes my-2">
+                                                <span class="email-notes">Your email address will not be published.</span>
+                                                <span class="required-field-message">required fields are marked</span>
+                                                <span class="required">*</span>
+                                            </p>
+                                            <div class="comment-form-rating">
+                                                <label for="rating">Your rating of this product</label>
+                                                <ul class="stars product-rating inline-block ml-2">
+                                                    <li><span><i class="fa-regular fa-star"></i></span></li>
+                                                    <li><span><i class="fa-regular fa-star"></i></span></li>
+                                                    <li><span><i class="fa-regular fa-star"></i></span></li>
+                                                    <li><span><i class="fa-regular fa-star"></i></span></li>
+                                                    <li><span><i class="fa-regular fa-star"></i></span></li>
+                                                </ul>
+                                            </div>
+                                            <p class="comment-form-comment mt-4">
+                                                <textarea class="w-full h-32 dark:text-black" name="comment" id="comment" placeholder="Write your review here..." required></textarea>
+                                            </p>
+                                            <div class="comment-author-email md:flex items-center gap-3 mt-4">
+                                                <p class="comment-form-author w-full mb-5 md:mb-0">
+                                                    <input class="w-full dark:text-black" type="text" name="author" id="author" placeholder="Name *">
+                                                </p>
+                                                <p class="comment-form-email w-full">
+                                                    <input class="w-full dark:text-black" type="text" name="email" id="email" placeholder="Email *">
+                                                </p>
+                                            </div>
+                                            <p class="comment-cookies my-3 flex items-center gap-2">
+                                                <input class="cursor-pointer" type="checkbox" name="cookies" id="cookies">
+                                                <label class="cursor-pointer" for="cookies">Save my name, email, and website in this browser for the next time I comment.</label>
+                                            </p>
+                                            <input type="submit" value="Submit" class="atsbdBtn lg:!px-16">
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- review list -->
+                            <div class="reviews-item woo-review-list mt-8">
+                                <!-- review list if don't have a review -->
+                                <div class="woo-review-list review-without-review my-6" id="comments">
+                                    <h6 class="woo-review-title capitalize p-2 bg-light-gray font-medium text-base dark:text-black">reviews</h6>
+                                    <p class="woo-noreview my-5">There are no reviews yet.</p>
+                                </div>
+                                <!-- review list if have a comment -->
+                                <div class="review-list-with-review my-6" id="comments">
+                                    <h6 class="woo-review-title capitalize p-2 bg-light-gray font-medium text-base dark:text-black">1 review for this product</h6>
+                                    <ul class="commentlist mt-5">
+                                        <li class="review depth-1" id="li-comment">
+                                            <div class="comment-container" id="comment">
+                                                <img src="assets/img/favicon.png" alt="comment person">
+                                                <div class="comment-text">
+                                                    <div class="rating">
+                                                        <ul class="product-rating">
+                                                            <li><span><i class="fa-solid fa-star"></i></span></li>
+                                                            <li><span><i class="fa-solid fa-star"></i></span></li>
+                                                            <li><span><i class="fa-solid fa-star"></i></span></li>
+                                                            <li><span><i class="fa-solid fa-star"></i></span></li>
+                                                            <li><span><i class="fa-solid fa-star"></i></span></li>
+                                                        </ul>
+                                                    </div>
+                                                    <div class="meta">
+                                                        <span>by <span class="author-name capitalize">Israt ara mim</span></span>
+                                                        <span class="seperator">|</span>
+                                                        <span class="time capitalize">december 17, 2022</span>
+                                                    </div>
+                                                    <div class="description">
+                                                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente, perspiciatis!</p>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>  
+            </div>
+        </div>
+    </section>
+    <!-- =======================
+        Product Area End
+    ======================== -->
+    <!-- ============================
+        Related Products Area Start
+    ============================= -->
+    <section class="related-products my-5">
+        <div class="container bg-white p-4 dark:bg-black dark:text-white">
+            <!-- related products -->
+            <div class="atsbd-related-products woo-related-products">
+                <div class="related-proudcts-title border-solid border-gray border-b-2">
+                    <h2 class="capitalize text-[28px] sm:text-[30px] mb-3 text-center">related products</h2>
+                </div>
+                <div class="atsbd-woocommerce-products">
+                    <ul class="related_products-slider product-list mx-1 my-3">
+                        <!-- product item -->
+                        <li class="slider-single-item single-product">
+                            <!-- product thumbnail -->
+                            <div class="product-thumbnail">
+                                <!-- onsale -->
+                                <span class="onsale atsbdBtn">-10%</span>
+                                <!-- thumbnail -->
+                                <a href="#" class="thumbnail-link">
+                                    <img src="assets/img/product2.jpg" alt="product-image">
+                                </a>
+                                <!-- wishlist, quickview -->
+                                <span class="wishlist quickview">
+                                    <a href="#" class="wishlist">
+                                        <i class="fa-regular fa-heart"></i>
+                                        <span class="capitalize">add to wishlist</span>
+                                    </a>
+                                    <a href="#" class="quickview">
+                                        <i class="fa-regular fa-eye"></i>
+                                        <span class="capitalize">quick view</span>
+                                    </a>
+                                    <a href="#" class="compare">
+                                        <i class="fa-regular fa-chart-bar"></i>
+                                        <span class="capitalize">Compare</span>
+                                    </a>
+                                </span>
+                            </div>
+                            <!-- product details -->
+                            <div class="product-details">
+                                <!-- product title -->
+                                <div class="product-title">
+                                    <a href="#"><h3 class="text-lg transition-all hover:text-yellow">Satin Salwar | Ladies pant</h3></a>
+                                </div>
+                                <!-- product price -->
+                                <div class="product-price font-medium mt-1 mb-3">
+                                    <ins>
+                                        <span class="amount sale-price">
+                                            <bdi>
+                                                <span class="currency-symbol">$</span>250
+                                            </bdi>
+                                        </span>
+                                    </ins>
+                                    <del class="text-[13px] opacity-80">
+                                        <span class="amount ">
+                                            <bdi>
+                                                <span class="currency-symbol">$</span>300
+                                            </bdi>
+                                        </span>
+                                    </del>
+                                </div>
+                                <!-- add to cart/select option/buy now -->
+                                <div class="addtocart select-option buy-now text-center">
+                                    <a href="#" class="atsbdBtn capitalize block">Add to Cart</a>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- product item -->
+                        <li class="slider-single-item single-product">
+                            <!-- product thumbnail -->
+                            <div class="product-thumbnail">
+                                <!-- onsale -->
+                                <span class="onsale atsbdBtn">sale!</span>
+                                <!-- thumbnail -->
+                                <a href="#" class="thumbnail-link">
+                                    <img src="assets/img/product3.jpg" alt="product-image">
+                                </a>
+                                <!-- wishlist, quickview -->
+                                <span class="wishlist quickview">
+                                    <a href="#" class="wishlist">
+                                        <i class="fa-regular fa-heart"></i>
+                                        <span class="capitalize">add to wishlist</span>
+                                    </a>
+                                    <a href="#" class="quickview">
+                                        <i class="fa-regular fa-eye"></i>
+                                        <span class="capitalize">quick view</span>
+                                    </a>
+                                    <a href="#" class="compare">
+                                        <i class="fa-regular fa-chart-bar"></i>
+                                        <span class="capitalize">Compare</span>
+                                    </a>
+                                </span>
+                            </div>
+                            <!-- product details -->
+                            <div class="product-details">
+                                <!-- product title -->
+                                <div class="product-title">
+                                    <a href="#"><h3 class="text-lg transition-all hover:text-yellow">Satin Salwar | Ladies pant</h3></a>
+                                </div>
+                                <!-- product price -->
+                                <div class="product-price font-medium mt-1 mb-3">
+                                    <ins>
+                                        <span class="amount sale-price">
+                                            <bdi>
+                                                <span class="currency-symbol">$</span>250
+                                            </bdi>
+                                        </span>
+                                    </ins>
+                                    <del class="text-[13px] opacity-80">
+                                        <span class="amount ">
+                                            <bdi>
+                                                <span class="currency-symbol">$</span>300
+                                            </bdi>
+                                        </span>
+                                    </del>
+                                </div>
+                                <!-- add to cart/select option/buy now -->
+                                <div class="addtocart select-option buy-now text-center">
+                                    <a href="#" class="atsbdBtn capitalize block">buy now</a>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- product item -->
+                        <li class="slider-single-item single-product">
+                            <!-- product thumbnail -->
+                            <div class="product-thumbnail">
+                                <!-- onsale -->
+                                <span class="onsale atsbdBtn">sale!</span>
+                                <!-- thumbnail -->
+                                <a href="#" class="thumbnail-link">
+                                    <img src="assets/img/product1.jpg" alt="product-image">
+                                </a>
+                                <!-- wishlist, quickview -->
+                                <span class="wishlist quickview">
+                                    <a href="#" class="wishlist">
+                                        <i class="fa-regular fa-heart"></i>
+                                        <span class="capitalize">add to wishlist</span>
+                                    </a>
+                                    <a href="#" class="quickview">
+                                        <i class="fa-regular fa-eye"></i>
+                                        <span class="capitalize">quick view</span>
+                                    </a>
+                                    <a href="#" class="compare">
+                                        <i class="fa-regular fa-chart-bar"></i>
+                                        <span class="capitalize">Compare</span>
+                                    </a>
+                                </span>
+                            </div>
+                            <!-- product details -->
+                            <div class="product-details">
+                                <!-- product title -->
+                                <div class="product-title">
+                                    <a href="#"><h3 class="text-lg transition-all hover:text-yellow">Satin Salwar | Ladies pant</h3></a>
+                                </div>
+                                <!-- product price -->
+                                <div class="product-price font-medium mt-1 mb-3">
+                                    <ins>
+                                        <span class="amount sale-price">
+                                            <bdi>
+                                                <span class="currency-symbol">$</span>250
+                                            </bdi>
+                                        </span>
+                                    </ins>
+                                    <del class="text-[13px] opacity-80">
+                                        <span class="amount ">
+                                            <bdi>
+                                                <span class="currency-symbol">$</span>300
+                                            </bdi>
+                                        </span>
+                                    </del>
+                                </div>
+                                <!-- add to cart/select option/buy now -->
+                                <div class="addtocart select-option buy-now text-center">
+                                    <a href="#" class="atsbdBtn capitalize block">Add to Cart</a>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- product item -->
+                        <li class="slider-single-item single-product">
+                            <!-- product thumbnail -->
+                            <div class="product-thumbnail">
+                                <!-- onsale -->
+                                <span class="onsale atsbdBtn">-10%</span>
+                                <!-- thumbnail -->
+                                <a href="#" class="thumbnail-link">
+                                    <img src="assets/img/product4.jpg" alt="product-image">
+                                </a>
+                                <!-- wishlist, quickview -->
+                                <span class="wishlist quickview">
+                                    <a href="#" class="wishlist">
+                                        <i class="fa-regular fa-heart"></i>
+                                        <span class="capitalize">add to wishlist</span>
+                                    </a>
+                                    <a href="#" class="quickview">
+                                        <i class="fa-regular fa-eye"></i>
+                                        <span class="capitalize">quick view</span>
+                                    </a>
+                                    <a href="#" class="compare">
+                                        <i class="fa-regular fa-chart-bar"></i>
+                                        <span class="capitalize">Compare</span>
+                                    </a>
+                                </span>
+                            </div>
+                            <!-- product details -->
+                            <div class="product-details">
+                                <!-- product title -->
+                                <div class="product-title">
+                                    <a href="#"><h3 class="text-lg transition-all hover:text-yellow">Satin Salwar | Ladies pant</h3></a>
+                                </div>
+                                <!-- product price -->
+                                <div class="product-price font-medium mt-1 mb-3">
+                                    <ins>
+                                        <span class="amount sale-price">
+                                            <bdi>
+                                                <span class="currency-symbol">$</span>250
+                                            </bdi>
+                                        </span>
+                                    </ins>
+                                    <del class="text-[13px] opacity-80">
+                                        <span class="amount ">
+                                            <bdi>
+                                                <span class="currency-symbol">$</span>300
+                                            </bdi>
+                                        </span>
+                                    </del>
+                                </div>
+                                <!-- add to cart/select option/buy now -->
+                                <div class="addtocart select-option buy-now text-center">
+                                    <a href="#" class="atsbdBtn capitalize block">Add to Cart</a>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- product item -->
+                        <li class="slider-single-item single-product">
+                            <!-- product thumbnail -->
+                            <div class="product-thumbnail">
+                                <!-- onsale -->
+                                <span class="onsale atsbdBtn">sale!</span>
+                                <!-- thumbnail -->
+                                <a href="#" class="thumbnail-link">
+                                    <img src="assets/img/product1.jpg" alt="product-image">
+                                </a>
+                                <!-- wishlist, quickview -->
+                                <span class="wishlist quickview">
+                                    <a href="#" class="wishlist">
+                                        <i class="fa-regular fa-heart"></i>
+                                        <span class="capitalize">add to wishlist</span>
+                                    </a>
+                                    <a href="#" class="quickview">
+                                        <i class="fa-regular fa-eye"></i>
+                                        <span class="capitalize">quick view</span>
+                                    </a>
+                                    <a href="#" class="compare">
+                                        <i class="fa-regular fa-chart-bar"></i>
+                                        <span class="capitalize">Compare</span>
+                                    </a>
+                                </span>
+                            </div>
+                            <!-- product details -->
+                            <div class="product-details">
+                                <!-- product title -->
+                                <div class="product-title">
+                                    <a href="#"><h3 class="text-lg transition-all hover:text-yellow">Satin Salwar | Ladies pant</h3></a>
+                                </div>
+                                <!-- product price -->
+                                <div class="product-price font-medium mt-1 mb-3">
+                                    <ins>
+                                        <span class="amount sale-price">
+                                            <bdi>
+                                                <span class="currency-symbol">$</span>250
+                                            </bdi>
+                                        </span>
+                                    </ins>
+                                    <del class="text-[13px] opacity-80">
+                                        <span class="amount ">
+                                            <bdi>
+                                                <span class="currency-symbol">$</span>300
+                                            </bdi>
+                                        </span>
+                                    </del>
+                                </div>
+                                <!-- add to cart/select option/buy now -->
+                                <div class="addtocart select-option buy-now text-center">
+                                    <a href="#" class="atsbdBtn capitalize block">select options</a>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- product item -->
+                        <li class="slider-single-item single-product">
+                            <!-- product thumbnail -->
+                            <div class="product-thumbnail">
+                                <!-- onsale -->
+                                <span class="onsale atsbdBtn">-10%</span>
+                                <!-- thumbnail -->
+                                <a href="#" class="thumbnail-link">
+                                    <img src="assets/img/product2.jpg" alt="product-image">
+                                </a>
+                                <!-- wishlist, quickview -->
+                                <span class="wishlist quickview">
+                                    <a href="#" class="wishlist">
+                                        <i class="fa-regular fa-heart"></i>
+                                        <span class="capitalize">add to wishlist</span>
+                                    </a>
+                                    <a href="#" class="quickview">
+                                        <i class="fa-regular fa-eye"></i>
+                                        <span class="capitalize">quick view</span>
+                                    </a>
+                                    <a href="#" class="compare">
+                                        <i class="fa-regular fa-chart-bar"></i>
+                                        <span class="capitalize">Compare</span>
+                                    </a>
+                                </span>
+                            </div>
+                            <!-- product details -->
+                            <div class="product-details">
+                                <!-- product title -->
+                                <div class="product-title">
+                                    <a href="#"><h3 class="text-lg transition-all hover:text-yellow">Satin Salwar | Ladies pant</h3></a>
+                                </div>
+                                <!-- product price -->
+                                <div class="product-price font-medium mt-1 mb-3">
+                                    <ins>
+                                        <span class="amount sale-price">
+                                            <bdi>
+                                                <span class="currency-symbol">$</span>250
+                                            </bdi>
+                                        </span>
+                                    </ins>
+                                    <del class="text-[13px] opacity-80">
+                                        <span class="amount ">
+                                            <bdi>
+                                                <span class="currency-symbol">$</span>300
+                                            </bdi>
+                                        </span>
+                                    </del>
+                                </div>
+                                <!-- add to cart/select option/buy now -->
+                                <div class="addtocart select-option buy-now text-center">
+                                    <a href="#" class="atsbdBtn capitalize block">Add to Cart</a>
+                                </div>
+                            </div>
+                        </li>
+                        <!-- product item -->
+                        <li class="slider-single-item single-product">
+                            <!-- product thumbnail -->
+                            <div class="product-thumbnail">
+                                <!-- onsale -->
+                                <span class="onsale atsbdBtn">sale!</span>
+                                <!-- thumbnail -->
+                                <a href="#" class="thumbnail-link">
+                                    <img src="assets/img/product4.jpg" alt="product-image">
+                                </a>
+                                <!-- wishlist, quickview -->
+                                <span class="wishlist quickview">
+                                    <a href="#" class="wishlist">
+                                        <i class="fa-regular fa-heart"></i>
+                                        <span class="capitalize">add to wishlist</span>
+                                    </a>
+                                    <a href="#" class="quickview">
+                                        <i class="fa-regular fa-eye"></i>
+                                        <span class="capitalize">quick view</span>
+                                    </a>
+                                    <a href="#" class="compare">
+                                        <i class="fa-regular fa-chart-bar"></i>
+                                        <span class="capitalize">Compare</span>
+                                    </a>
+                                </span>
+                            </div>
+                            <!-- product details -->
+                            <div class="product-details">
+                                <!-- product title -->
+                                <div class="product-title">
+                                    <a href="#"><h3 class="text-lg transition-all hover:text-yellow">Satin Salwar | Ladies pant</h3></a>
+                                </div>
+                                <!-- product price -->
+                                <div class="product-price font-medium mt-1 mb-3">
+                                    <ins>
+                                        <span class="amount sale-price">
+                                            <bdi>
+                                                <span class="currency-symbol">$</span>250
+                                            </bdi>
+                                        </span>
+                                    </ins>
+                                    <del class="text-[13px] opacity-80">
+                                        <span class="amount ">
+                                            <bdi>
+                                                <span class="currency-symbol">$</span>300
+                                            </bdi>
+                                        </span>
+                                    </del>
+                                </div>
+                                <!-- add to cart/select option/buy now -->
+                                <div class="addtocart select-option buy-now text-center">
+                                    <a href="#" class="atsbdBtn capitalize block">Add to Cart</a>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ============================
+        Related Products Area End
+    ============================= -->
+    <!-- =======================
+        Subscribe Area Start
+    ======================== -->
+    <section class="subscribe-area my-5">
+        <div class="container bg-white py-10 sm:py-8 px-4 dark:bg-black dark:text-white">
+            <div class="subscribeform-content md:flex items-center justify-between">
+                <div class="subscribe-content mb-4 md:mb-0">
+                    <h4 class="subscribe-title capitalize text-center md:text-left md:ml-8 text-[22px] lg:text-[26px] leading-6">subscribe to AllThe Shop BD</h4>
+                </div>
+                <div class="subscribe-form text-center md:text-left">
+                    <form action="#" method="POST">
+                        <input type="email" class="-mr-1 sm:w-[250px] lg:w-[330px] py-[7px] px-2 rounded-sm rounded-tr-none rounded-br-none dark:text-black" name="subemail" id="subemail" placeholder="Type your email here..." required>
+                        <input type="submit" class="atsbdBtn w-[100px] sm:w-auto !pl-[10px] sm:!pl-4" value="subscribe">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- =======================
+        Subscribe Area End
+    ======================== -->
+    <!-- ==========================
+        Specification Area Start
+    =========================== -->
+    <section class="specification-area specification-without-homepage my-5">
+        <div class="container bg-white px-4 py-6 dark:bg-black dark:text-white">
+            <div class="specification-details grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+                <!-- single specification -->
+                <div class="single-specification mb-3 lg:mb-0 text-center sm:border-r-2 border-gray">
+                    <div class="specif-icon mb-2"><i class="fa-solid fa-truck text-4xl text-yellow"></i></div>
+                    <div class="specif-content">
+                        <h6 class="capitalize leading-6">fast delivery</h6>
+                        <p class="">Lorem ipsum dolor sit amet</p>
+                    </div>
+                </div>
+                <!-- single specification -->
+                <div class="single-specification mb-3 lg:mb-0 text-center lg:border-r-2 border-gray">
+                    <div class="specif-icon mb-2"><i class="fa-solid fa-credit-card text-4xl text-yellow"></i></div>
+                    <div class="specif-content">
+                        <h6 class="capitalize leading-6">secure payment</h6>
+                        <p class="">Lorem ipsum dolor sit amet</p>
+                    </div>
+                </div>
+                <!-- single specification -->
+                <div class="single-specification mb-3 sm:mb-0 text-center sm:border-r-2 border-gray">
+                    <div class="specif-icon mb-2"><i class="fa-regular fa-comments text-4xl text-yellow"></i></div>
+                    <div class="specif-content">
+                        <h6 class="capitalize leading-6">24/7 support</h6>
+                        <p class="">Lorem ipsum dolor sit amet</p>
+                    </div>
+                </div>
+                <!-- single specification -->
+                <div class="single-specification mb-1 sm:mb-0 text-center">
+                    <div class="specif-icon mb-2"><i class="fa-solid fa-rotate-left text-4xl text-yellow"></i></div>
+                    <div class="specif-content">
+                        <h6 class="capitalize leading-6">return policy</h6>
+                        <p class="">Lorem ipsum dolor sit amet</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ==========================
+        Specification Area End
+    =========================== -->
+    <!-- =======================
+        Footer Area Start
+    ======================== -->
+    <footer class="footer-area bg-black pt-4 pb-1 text-white">
+        <div class="container px-1 lg:px-0">
+            <div class="footer-widgets pt-4 pb-7 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5 border-solid border-gray border-b-2">
+                <div class="widget-one about-atsbd">
+                    <h5 class="about-title capitalize">about us</h5>
+                    <div class="widget-one-content">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis obcaecati quae, a doloribus facere neque! Ullam sed enim consequatur animi!</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis obcaecati quae, a doloribus facere neque!</p>
+                    </div>
+                </div>
+                <div class="widget-two">
+                    <h5 class="quicklink-title capitalize">quick links</h5>
+                    <ul class="quick-links">
+                        <li><a href="#">home</a></li>
+                        <li><a href="#">about us</a></li>
+                        <li><a href="#">shop</a></li>
+                        <li><a href="#">best seller</a></li>
+                        <li><a href="#">contact us</a></li>
+                    </ul>
+                </div>
+                <div class="widget-three">
+                    <h5 class="usefullink-title capitalize">useful links</h5>
+                    <ul class="useful-links">
+                        <li><a href="#">Terms and Condition</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                        <li><a href="#">Return Policy</a></li>
+                        <li><a href="#">Refund Policy</a></li>
+                        <li><a href="#">delivery system</a></li>
+                    </ul>
+                </div>
+                <div class="widget-four">
+                    <h5 class="footersocial-title capitalize">footer social</h5>
+                    <ul class="footer-social">
+                        <li><a href="https://facebook.com/habibcoder1" title="Facebook" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
+                        <li><a href="https://twitter.com/habibcoder" title="Twitter" target="_blank"><i class="fa-brands fa-square-twitter"></i></a></li>
+                        <li><a href="https://linkedin.com/in/habibcoder" title="LinkedIn" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+                        <li><a href="https://instagram.com/habibcoder" title="Instagram" target="_blank"><i class="fa-brands fa-square-instagram"></i></a></li>
+                        <li><a href="https://api.whatsapp.com/send?phone=01877972176" title="WhatsApp" target="_blank"><i class="fa-brands fa-square-whatsapp"></i></a></li>
+                    </ul>
+                    <div class="contact-details mt-5">
+                        <p class="contact-number"><span class="font-semibold text-yellow">Phone:</span> +880 01877972176</p>
+                        <p class="contact-email my-1"><span class="font-semibold text-yellow">Email:</span> alltheshopbd@gmail.com</p>
+                        <p class="contact-location capitalize"><span class="font-semibold text-yellow">Address:</span> vatar mor, vatar, dhaka-1212, bangladesh</p>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom mb-20 sm:mb-4 md:flex items-center justify-between my-4">
+                <div class="copyright-text mb-4 md:mb-0">
+                    <p class="text-white capitalize">copyright &copy; 2023 AllThe Shop BD | all right reserved | developed by <a href="https://habibcoder.com" target="_blank" class="!text-yellow transition-all hover:underline">HabibCoder</a></p>
+                </div>
+                <div class="payment-icons">
+                    <img src="assets/img/payment-methods.jpg" alt="payment-method-image">
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- =======================
+        Footer Area End
+    ======================== -->
+
+    <!-- All Scripts -->
+    <script src="assets/js/jquery-3.7.0.min.js"></script>
+    <script src="assets/js/jquery-ui.min.js"></script>
+    <script src="assets/js/jquery.ez-plus.js"></script>
+    <script src="assets/js/slick.min.js"></script>
+    <script src="assets/js/custom.js"></script>
+    <script>
+        // preloader
+        let preloader = document.querySelector('.atsbd-preloader');
+        window.addEventListener('load', function(){
+            preloader.style.display = 'none';
+        });
+
+        // categories show without home page
+        // when will write PHP code then will not load in home page by !is_home() !is_front_page functions with if condition
+        let cateClick = document.querySelector('.main-header .btn-category-show');
+        let cateList = document.querySelector('.category-without-homepage');
+        cateClick.addEventListener('click', function(){
+            cateList.classList.toggle('show-categories');
+        });
+        // product tabs
+        jQuery('.woo-summary-tabs').tabs();
+        // product zoom
+        jQuery('.product-image-gallery .product-thumb img').ezPlus({
+            zoomType: 'inner',
+            cursor: 'pointer'
+        });
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,91 @@
+// Footer Style
+
+.footer-area{
+    a{
+        color: $atsbdWhiteColor;
+    }
+    .container{
+        .footer-widgets{
+            .widget-two,
+            .widget-three{
+                ul{
+                    li{
+                        display: block;
+                        margin-bottom: 6px;
+                        a{
+                            text-transform: capitalize; 
+                            &::after{
+                                content: "";
+                                display: block;
+                                clear: both;
+                                border-bottom: 2px solid $atsbdPrimaryColor;
+                                width: 0;
+                                transition: .5s;
+                                -webkit-transition: .5s;
+                                -moz-transition: .5s;
+                                -ms-transition: .5s;
+                                -o-transition: .5s;
+                            }
+                            &:hover::after{
+                                width: 100%;
+                            }
+                        }
+                    }
+                }
+            }
+            .widget-four{
+                ul{
+                    li{
+                        margin-right: 8px;
+                        a{
+                            i{
+                                font-size: 25px;
+                                transition: .4s ease all;
+                                -webkit-transition: .4s ease all;
+                                -moz-transition: .4s ease all;
+                                -ms-transition: .4s ease all;
+                                -o-transition: .4s ease all;
+                            }
+                        }
+                    }
+                    li:first-child a i:hover{
+                        color: #5384ec;
+                    }
+                    li:nth-child(2) a i:hover{
+                        color: #1DA1F2;
+                    }
+                    li:nth-child(3) a i:hover{
+                        color: #0e76a8;
+                    }
+                    li:nth-child(4) a i:hover{
+                        color: #fbad50;
+                    }
+                    li:last-child a i:hover{
+                        color: #4AC459;
+                    }
+                }
+            }
+            .widget-one h5,
+            .widget-two h5,
+            .widget-three h5,
+            .widget-four h5{
+                border-left: 5px solid $atsbdPrimaryColor;
+                padding-left: 8px;
+                line-height: 1.2em;
+                margin-bottom: 15px;
+            }
+            .widget-one{
+                .widget-one-content{
+                    p:first-child{
+                        margin-bottom: 8px;
+                    }
+                }
+            }
+        }
+        .payment-icons{
+            img{
+                height: 60px;
+            }
+        }
+    }
+}
